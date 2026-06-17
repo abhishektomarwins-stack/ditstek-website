@@ -1,0 +1,30 @@
+.fa,
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  font-style: normal;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+
+.fa svg,
+.fas svg,
+.far svg,
+.fab svg,
+.fa-solid svg,
+.fa-regular svg,
+.fa-brands svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  overflow: visible;
+  fill: currentColor;
+}

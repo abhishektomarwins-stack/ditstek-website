@@ -1,0 +1,380 @@
+<header class="site-header">
+  <div class="top-bar">
+    <div
+      class="container-fluid d-flex justify-content-between align-items-center">
+      <div class="top-bar-contacts d-flex gap-3">
+        <a href="tel:+15875004784"
+          class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa-solid fa-phone"></i> +1 (587) 500-4784
+        </a>
+        <a href="tel:+16517807578"
+          class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa-solid fa-phone"></i> +1 (651) 780-7578
+        </a>
+        <a href="mailto:info@ditstek.com"
+          class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa-solid fa-envelope"></i> info@ditstek.com
+        </a>
+      </div>
+      <div class="d-flex gap-4">
+        <a href="#" class="top-bar-social-link" aria-label="LinkedIn"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="top-bar-social-link" aria-label="X (Twitter)"><i
+            class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="top-bar-social-link" aria-label="Facebook"><i
+            class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="top-bar-social-link" aria-label="YouTube"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="top-bar-social-link" aria-label="Instagram"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="top-bar-social-link" aria-label="Behance"><i
+            class="fa-brands fa-behance"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="main-nav navbar">
+    <div class="container-fluid">
+
+      <a href="<?php echo $url; ?>index.php"
+        class="navbar-brand d-flex align-items-center text-decoration-none">
+        <img src="<?php echo $url; ?>assets/images/svg/logo.svg" alt="DiTStek Logo"
+          title="DiTStek Logo" class="nav-logo-img">
+      </a>
+
+      <ul
+        class="nav-menu d-flex align-items-center list-unstyled mb-0 ms-5 gap-1">
+
+        <li class="nav-item has-dropdown position-relative">
+          <a href="#" class="nav-link-item d-flex align-items-center gap-1">AI
+            SERVICES <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <div class="dropdown-menu-custom mega-menu position-absolute">
+            <p class="mega-menu-title text-uppercase">Faster, Smarter & Cost
+              Saving AI Development Services to Join Marketplace With Ease</p>
+            <ul class="mega-menu-list list-unstyled d-flex flex-wrap">
+              <li class="w-50"><a href="<?php echo $url; ?>services/ai-software-development.php"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Software
+                  Development</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Chatbot
+                  Development</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Agent
+                  Development</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> Generative AI
+                  Development Solutions</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Integration
+                  Services</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Consulting</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI SaaS
+                  Platform</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI Solutions For
+                  Enterprise</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In Fintech</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold  gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In Oil &
+                  Gas</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In
+                  Healthcare</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In
+                  Manufacturing</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In Mining</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In
+                  Agriculture</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In Real
+                  Estate</a></li>
+              <li class="w-50"><a href="#"
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa-solid fa-arrow-right"></i> AI In
+                  Insurance</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="<?php echo $url; ?>pages/about.php" class="nav-link-item">ABOUT US</a>
+        </li>
+
+        <li class="nav-item has-dropdown position-relative">
+          <a href="#"
+            class="nav-link-item d-flex align-items-center gap-1">SERVICES <i
+              class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <div
+            class="dropdown-menu-custom mega-menu services-mega-menu position-absolute">
+            <div class="d-flex">
+              <div class="flex-grow-1 border-end pe-4 me-4">
+                <h6 class="text-uppercase services-header">SERVICES</h6>
+                <p class="text-uppercase mega-menu-title">COST-EFFECTIVE
+                  SOFTWARE DEVELOPMENT AND SUPPORT SERVICES</p>
+                <ul class="mega-menu-list list-unstyled d-flex flex-wrap">
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> IT Consulting
+                      Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Custom Application
+                      Development</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Software
+                      Development Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Full-Stack
+                      Development Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Dedicated
+                      Development Team</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Backend Development
+                      Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Legacy
+                      Modernization Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> QA Software Testing
+                      Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> MVP
+                      Development</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Cross Platform
+                      Development</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Enterprise Software
+                      Development</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Product Engineering
+                      Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Cloud Computing
+                      Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Digital
+                      Transformation Services</a></li>
+                  <li class="w-50"><a href="#"
+                      class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> SaaS Product
+                      Development</a></li>
+                </ul>
+              </div>
+              <div class="right-column">
+                <ul class="mega-menu-list list-unstyled">
+                  <li class="mb-2"><a href="#"
+                      class="text-decoration-none d-flex hire-developers gap-2"><i
+                        class="fa-solid fa-arrow-right"></i> Hire Remote
+                      Developers</a></li>
+                  <li><a href="#" class="text-decoration-none hire-link">Hire
+                      Asp.Net Developers</a></li>
+                  <li><a href="#" class="text-decoration-none hire-link">Hire
+                      PHP Developers</a></li>
+                  <li><a href="#" class="text-decoration-none hire-link">Hire
+                      UI/UX Developers</a></li>
+                  <li><a href="#" class="text-decoration-none hire-link">Hire
+                      Front End Developers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link-item">OUR PRODUCTS</a>
+        </li>
+
+        <li class="nav-item has-dropdown position-relative">
+          <a href="#"
+            class="nav-link-item d-flex align-items-center gap-1">INDUSTRIES <i
+              class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <ul class="dropdown-menu-custom position-absolute list-unstyled">
+            <li><a href="#"
+                class="text-decoration-none d-block">Healthcare</a></li>
+            <li><a href="#"
+                class="text-decoration-none d-block">Finance</a></li>
+            <li><a href="#" class="text-decoration-none d-block">Retail</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link-item">BLOGS</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link-item">TECHFOLIO</a>
+        </li>
+
+        <li class="nav-item has-dropdown position-relative">
+          <a href="#"
+            class="nav-link-item d-flex align-items-center gap-1">EVENTS <i
+              class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <ul class="dropdown-menu-custom position-absolute list-unstyled">
+            <li><a href="#" class="text-decoration-none d-block">Upcoming
+                Events</a></li>
+            <li><a href="#" class="text-decoration-none d-block">Past
+                Events</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="<?php echo $url; ?>pages/contact.php" class="nav-link-item">CONTACT US</a>
+        </li>
+
+      </ul>
+
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle menu"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <img src="<?php echo $url; ?>assets/images/svg/logo.svg" alt="DiTStek Logo"
+        class="nav-logo-img">
+      <button class="mobile-menu-close" id="mobileMenuClose"
+        aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <ul class="list-unstyled mb-0">
+
+      <li class="mobile-nav-item has-dropdown">
+        <div class="mobile-nav-link" data-toggle="mobile-dropdown">
+          AI SERVICES <i class="fa-solid fa-plus mobile-arrow"></i>
+        </div>
+        <ul class="mobile-dropdown list-unstyled">
+          <li><a href="<?php echo $url; ?>services/ai-software-development.php">AI Software Development</a></li>
+          <li><a href="#">AI Chatbot Development</a></li>
+          <li><a href="#">AI Agent Development</a></li>
+          <li><a href="#">Generative AI Development Solutions</a></li>
+          <li><a href="#">AI Integration Services</a></li>
+          <li><a href="#">AI Consulting</a></li>
+          <li><a href="#">AI SaaS Platform</a></li>
+          <li><a href="#">AI Solutions For Enterprise</a></li>
+          <li><a href="#">AI In Fintech</a></li>
+          <li><a href="#">AI In Oil & Gas</a></li>
+          <li><a href="#">AI In Healthcare</a></li>
+          <li><a href="#">AI In Manufacturing</a></li>
+          <li><a href="#">AI In Mining</a></li>
+          <li><a href="#">AI In Agriculture</a></li>
+          <li><a href="#">AI In Real Estate</a></li>
+          <li><a href="#">AI In Insurance</a></li>
+        </ul>
+      </li>
+
+      <li class="mobile-nav-item">
+        <a href="<?php echo $url; ?>pages/about.php" class="mobile-nav-link">ABOUT US</a>
+      </li>
+
+      <li class="mobile-nav-item has-dropdown">
+        <div class="mobile-nav-link" data-toggle="mobile-dropdown">
+          SERVICES <i class="fa-solid fa-plus mobile-arrow"></i>
+        </div>
+        <ul class="mobile-dropdown list-unstyled">
+          <li><a href="#">IT Consulting Services</a></li>
+          <li><a href="#">Custom Application Development</a></li>
+          <li><a href="#">Software Development Services</a></li>
+          <li><a href="#">Full-Stack Development Services</a></li>
+          <li><a href="#">Dedicated Development Team</a></li>
+          <li><a href="#">Backend Development Services</a></li>
+          <li><a href="#">Legacy Modernization Services</a></li>
+          <li><a href="#">QA Software Testing Services</a></li>
+          <li><a href="#">MVP Development</a></li>
+          <li><a href="#">Cross Platform Development</a></li>
+          <li><a href="#">Enterprise Software Development</a></li>
+          <li><a href="#">Product Engineering Services</a></li>
+          <li><a href="#">Cloud Computing Services</a></li>
+          <li><a href="#">Digital Transformation Services</a></li>
+          <li><a href="#">SaaS Product Development</a></li>
+          <li><a href="#">Hire Remote Developers</a></li>
+          <li><a href="#">Hire Asp.Net Developers</a></li>
+          <li><a href="#">Hire PHP Developers</a></li>
+          <li><a href="#">Hire UI/UX Developers</a></li>
+          <li><a href="#">Hire Front End Developers</a></li>
+        </ul>
+      </li>
+
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">OUR PRODUCTS</a>
+      </li>
+
+      <li class="mobile-nav-item has-dropdown">
+        <div class="mobile-nav-link" data-toggle="mobile-dropdown">
+          INDUSTRIES <i class="fa-solid fa-plus mobile-arrow"></i>
+        </div>
+        <ul class="mobile-dropdown list-unstyled">
+          <li><a href="#">Healthcare</a></li>
+          <li><a href="#">Finance</a></li>
+          <li><a href="#">Retail</a></li>
+        </ul>
+      </li>
+
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">BLOGS</a>
+      </li>
+
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">TECHFOLIO</a>
+      </li>
+
+      <li class="mobile-nav-item has-dropdown">
+        <div class="mobile-nav-link" data-toggle="mobile-dropdown">
+          EVENTS <i class="fa-solid fa-plus mobile-arrow"></i>
+        </div>
+        <ul class="mobile-dropdown list-unstyled">
+          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="#">Past Events</a></li>
+        </ul>
+      </li>
+
+      <li class="mobile-nav-item">
+        <a href="<?php echo $url; ?>pages/contact.php" class="mobile-nav-link">CONTACT US</a>
+      </li>
+
+    </ul>
+  </div>
+
+</header>

@@ -1,0 +1,27 @@
+.site-footer {
+  background: #dfedfb;
+}
+.site-footer .footer-col {
+  padding-left: 24px;
+}
+@media (max-width: 991px) {
+  .site-footer .footer-col .footer-col {
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+.site-footer .border-start {
+  border-left: 1px solid rgba(20, 59, 110, 0.3) !important;
+}
+.site-footer .footer-title {
+  color: #0d6efd;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.site-footer .footer-contact li {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=footer.css.map */

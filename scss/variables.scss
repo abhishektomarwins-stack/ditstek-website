@@ -1,0 +1,105 @@
+// colors
+$primary-color: #3095fb;
+$light-blue: #007bff;
+$secondary-color: #193370;
+$territory-color: #155a9f;
+$white-color: #fff;
+$black-color: #1b1b1b;
+$grey-color: #2e2e2e;
+$light-grey-bg: #e0e0e0;
+$primary-white-base: rgba(255, 255, 255, 0.22);
+$border-light-base: rgba(25, 51, 112, 0.5);
+$light-bg: #dfedfb;
+$app-linkedin: #0077b5;
+$app-youtube: #ff0000;
+$app-facebook: #4267b2;
+$blue-vacation: #217CB0;
+$app-behance: #053eff;
+$text-grey-color: #C9C9C9;
+$grey2-color: #8D8D8D;
+$grey3-color: #f1f1f1;
+$light-grey-color: #F4F9FD;
+$disabled-color: #bcbcbc;
+$white-smoke-color: #F4F4F4;
+$stats-color: #747796;
+$stats-border-color: #F8F8F9;
+$stats-svg-bgcolor:#F2F8FF;
+$gitex-theme-color: #FF2C94;
+$south-africa-theme-color: #04D3B1;
+$torch-red: #FE171D;
+$dark-black-color: #000;
+$light-grey: #eee;
+
+
+// FONT FAMILY
+$font-light: "Red Hat Display", sans-serif;
+$font-regular: "Red Hat Display", sans-serif;
+$font-secondary: "impactregular";
+$font-medium: "Red Hat Display", sans-serif;
+$font-semibold: "Red Hat Display", sans-serif;
+$font-bold: "Red Hat Display", sans-serif;
+$font-extrabold: "Red Hat Display", sans-serif;
+$font-black: "Red Hat Display", sans-serif;
+
+// FONT WEIGHT
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+// FONT SIZE
+$font-size-80: 80px;
+$font-size-70: 70px;
+$font-size-67: 67px;
+$font-size-62: 62px;
+$font-size-60: 60px;
+$font-size-56: 56px;
+$font-size-50: 50px;
+$font-size-45: 45px;
+$font-size-40: 40px;
+$font-size-36: 36px;
+$font-size-35: 35px;
+$font-size-34: 34px;
+$font-size-33: 33px;
+$font-size-32: 32px;
+$font-size-30: 30px;
+$font-size-28: 28px;
+$font-size-26: 26px;
+$font-size-25: 25px;
+$font-size-24: 24px;
+$font-size-22: 22px;
+$font-size-20: 20px;
+$font-size-18: 18px;
+$font-size-17: 17px;
+$font-size-16: 16px;
+$font-size-15: 15px;
+$font-size-14: 14px;
+$font-size-13: 13px;
+$font-size-12: 12px;
+$font-size-10: 10px;
+
+// ANimations
+@mixin slideInUp2 {
+    animation-name: slideInUp;
+    animation-duration: 0.9s;
+    // / Chrome, Safari, Opera /
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
+
+/* Compact Header Toggle - SCSS Version */
+ 
+// Variables
+$bg-light: #f8f9fa;
+$border-light: #e9ecef;
+$text-muted: #6c757d;
+ 
+// Toggle dimensions
+$toggle-width: 82px;
+$toggle-height: 26px;
+$slider-width: 40px;
+$slider-height: 20px;
+$border-radius: 15px;
+$slider-radius: 15px;

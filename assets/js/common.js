@@ -1,0 +1,195 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const yearEl = document.getElementById('footer-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  const marqueeWrapper = document.querySelector('.marqueeWrapper');
+  const track = document.getElementById('marqueeTrack');
+  if (track && marqueeWrapper) {
+    const originals = Array.from(track.children);
+    originals.forEach(img => track.appendChild(img.cloneNode(true)));
+
+    let paused = false;
+    marqueeWrapper.addEventListener('mouseenter', () => { paused = true; });
+    marqueeWrapper.addEventListener('mouseleave', () => { paused = false; });
+
+    function startMarquee() {
+      let half = 0;
+      originals.forEach(img => {
+        half += img.getBoundingClientRect().width + 120;
+      });
+      if (half === 0) { setTimeout(startMarquee, 100); return; }
+      let pos = 0;
+      function tick() {
+        if (!paused) {
+          pos -= 1;
+          if (pos <= -half) pos = 0;
+          track.style.transform = 'translateX(' + pos + 'px)';
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    window.addEventListener('load', startMarquee);
+  }
+});
+
+async function loadIncludes() {
+  const elements = document.querySelectorAll('[common]');
+  await Promise.all([...elements].map(async (el) => {
+    const includePath = el.getAttribute('common');
+    const res = await fetch(includePath);
+    el.innerHTML = res.ok ? await res.text() : `<!-- failed: ${includePath} -->`;
+  }));
+}
+
+loadIncludes().then(() => {
+  const scriptEl = document.querySelector('script[src*="common.js"]');
+  const isSubPage = scriptEl ? scriptEl.getAttribute('src').includes('../') : false;
+  const subPagePrefix = isSubPage ? '../' : '';
+
+  function normalizeCommonPath(value) {
+    if (!value || value === '#' || /^(https?:|mailto:|tel:|\/|\.\/|\.\.\/)/.test(value)) {
+      return value;
+    }
+
+    if (
+      value === 'home.html' ||
+      value.startsWith('assets/') ||
+      value.startsWith('pages/') ||
+      value.startsWith('services/')
+    ) {
+      return `${subPagePrefix}${value}`;
+    }
+
+    return value;
+  }
+
+  document.querySelectorAll('header a[href], footer a[href], .site-footer-dark a[href]').forEach(link => {
+    link.setAttribute('href', normalizeCommonPath(link.getAttribute('href')));
+  });
+
+  document.querySelectorAll('header img[src], footer img[src], .site-footer-dark img[src]').forEach(image => {
+    image.setAttribute('src', normalizeCommonPath(image.getAttribute('src')));
+  });
+
+  const logoLink = document.querySelector('.navbar-brand');
+  if (logoLink) {
+    logoLink.href = isSubPage ? '../home.html' : 'home.html';
+  }
+
+  const navLogos = document.querySelectorAll('.nav-logo-img');
+  navLogos.forEach(logo => {
+    logo.src = isSubPage ? '../assets/images/svg/logo.svg' : 'assets/images/svg/logo.svg';
+  });
+
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+  const mobileMenuClose = document.getElementById('mobileMenuClose');
+
+  function openMenu() {
+    mobileMenu.classList.add('open');
+    mobileMenuOverlay.classList.add('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    mobileMenu.classList.remove('open');
+    mobileMenuOverlay.classList.remove('open');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  if (hamburgerBtn) hamburgerBtn.addEventListener('click', openMenu);
+  if (mobileMenuClose) mobileMenuClose.addEventListener('click', closeMenu);
+  if (mobileMenuOverlay) mobileMenuOverlay.addEventListener('click', closeMenu);
+
+  document.querySelectorAll('[data-toggle="mobile-dropdown"]').forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const item = trigger.closest('.mobile-nav-item');
+      item.classList.toggle('open');
+      
+      const icon = trigger.querySelector('.mobile-arrow');
+      if (icon) {
+        if (item.classList.contains('open')) {
+          icon.classList.remove('fa-plus');
+          icon.classList.add('fa-minus');
+        } else {
+          icon.classList.remove('fa-minus');
+          icon.classList.add('fa-plus');
+        }
+      }
+    });
+  });
+});
+
+
+$(document).ready(function () {
+  $(".services-slider").owlCarousel({
+    loop: true,
+    margin: 24,
+    nav: true,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    autoWidth: true,
+    center: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>'
+    ],
+    responsive: {
+      0: { autoWidth: false, center: false, items: 1 },
+      576: { autoWidth: false, center: false, items: 2 },
+      992: { autoWidth: true, center: true }
+    }
+  });
+
+  $(".tech-slider").owlCarousel({
+    loop: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 900,
+    autoplaySpeed: 5000,
+    autoplayHoverPause: false,
+    responsive: {
+      0: { items: 2 },
+      480: { items: 3 },
+      768: { items: 4 },
+      992: { items: 5 },
+      1200: { items: 8 }
+    }
+  });
+});
+
+const benefitCards = document.querySelectorAll('.benefitCard');
+const contentBoxes = document.querySelectorAll('.contentBox');
+
+function setActive(index) {
+  if (!benefitCards.length || !benefitCards[index]) return;
+
+  benefitCards.forEach(c => c.classList.remove('active'));
+  contentBoxes.forEach(b => b.classList.remove('active'));
+  benefitCards[index].classList.add('active');
+  if (contentBoxes[index]) contentBoxes[index].classList.add('active');
+}
+
+if (benefitCards.length) {
+  setActive(0);
+}
+
+benefitCards.forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    setActive(parseInt(card.dataset.index));
+  });
+});
+
+document.querySelector('.cardsWrapper')?.addEventListener('mouseleave', () => {
+  setActive(0);
+});
+
