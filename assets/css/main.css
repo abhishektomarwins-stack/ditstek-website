@@ -1026,30 +1026,22 @@ body {
   }
 }
 .benefits-section .benefits-layout {
-  display: flex;
-  gap: 40px;
   align-items: flex-start;
 }
 @media (max-width: 991px) {
   .benefits-section .benefits-layout {
-    flex-direction: column;
+    row-gap: 30px;
   }
 }
 .benefits-section .benefits-left {
-  width: 40%;
-  flex-shrink: 0;
   position: sticky;
   top: 100px;
   align-self: flex-start;
 }
 @media (max-width: 991px) {
   .benefits-section .benefits-left {
-    width: 100%;
     position: static;
   }
-}
-.benefits-section .benefits-right {
-  flex: 1;
 }
 .benefits-section .benefits-heading {
   color: #193370;
@@ -1118,7 +1110,7 @@ body {
   }
 }
 .case-studies-section .case-studies-banner .case-studies-image {
-  flex: 1;
+  flex: 0 0 auto;
 }
 @media (max-width: 991px) {
   .case-studies-section .case-studies-banner .case-studies-image img {
@@ -1126,7 +1118,7 @@ body {
   }
 }
 .case-studies-section .case-studies-banner .case-studies-content {
-  flex: 1;
+  flex: 0 0 auto;
   padding: 40px;
 }
 @media (max-width: 991px) {
@@ -1618,7 +1610,7 @@ body {
   }
 }
 .whoSection .whoCta {
-  gap: 18px;
+  row-gap: 18px;
   margin-top: 40px;
   padding: 15px 20px;
   background: #325C80;
@@ -1626,8 +1618,7 @@ body {
 }
 @media (max-width: 991px) {
   .whoSection .whoCta {
-    flex-direction: column;
-    gap: 20px !important;
+    row-gap: 20px !important;
     text-align: center;
     padding: 30px 24px !important;
   }
@@ -1638,7 +1629,6 @@ body {
   }
 }
 .whoSection .whoCtaHeading {
-  flex: 1;
   font-size: 28px;
 }
 @media (max-width: 991px) {
@@ -1742,6 +1732,8 @@ body {
 .solutionCta .rightImg {
   position: absolute;
   right: -13px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
   max-width: 400px;
 }

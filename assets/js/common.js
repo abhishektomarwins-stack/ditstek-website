@@ -2,11 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const yearEl = document.getElementById('footer-year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  const marqueeWrapper = document.querySelector('.marqueeWrapper');
-  const track = document.getElementById('marqueeTrack');
+  const marqueeWrapper = document.querySelector('.marquee-wrapper');
+  const track = document.getElementById('marquee-track');
   if (track && marqueeWrapper) {
     const originals = Array.from(track.children);
-    originals.forEach(img => track.appendChild(img.cloneNode(true)));
+    for (let i = 0; i < 6; i++) {
+      originals.forEach(img => track.appendChild(img.cloneNode(true)));
+    }
 
     let paused = false;
     marqueeWrapper.addEventListener('mouseenter', () => { paused = true; });
@@ -54,7 +56,7 @@ loadIncludes().then(() => {
     }
 
     if (
-      value === 'home.html' ||
+      value === 'index.php' ||
       value.startsWith('assets/') ||
       value.startsWith('pages/') ||
       value.startsWith('services/')
@@ -75,7 +77,7 @@ loadIncludes().then(() => {
 
   const logoLink = document.querySelector('.navbar-brand');
   if (logoLink) {
-    logoLink.href = isSubPage ? '../home.html' : 'home.html';
+    logoLink.href = isSubPage ? '../index.php' : 'index.php';
   }
 
   const navLogos = document.querySelectorAll('.nav-logo-img');
@@ -110,7 +112,7 @@ loadIncludes().then(() => {
     trigger.addEventListener('click', () => {
       const item = trigger.closest('.mobile-nav-item');
       item.classList.toggle('open');
-      
+
       const icon = trigger.querySelector('.mobile-arrow');
       if (icon) {
         if (item.classList.contains('open')) {
@@ -148,6 +150,21 @@ $(document).ready(function () {
     }
   });
 
+  $(".industry-carousel").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: { items: 1 },
+      768: { items: 2 },
+      992: { items: 2 }
+    }
+  });
+
   $(".tech-slider").owlCarousel({
     loop: true,
     nav: false,
@@ -167,8 +184,8 @@ $(document).ready(function () {
   });
 });
 
-const benefitCards = document.querySelectorAll('.benefitCard');
-const contentBoxes = document.querySelectorAll('.contentBox');
+const benefitCards = document.querySelectorAll('.benefit-card');
+const contentBoxes = document.querySelectorAll('.content-box');
 
 function setActive(index) {
   if (!benefitCards.length || !benefitCards[index]) return;
@@ -189,7 +206,6 @@ benefitCards.forEach(card => {
   });
 });
 
-document.querySelector('.cardsWrapper')?.addEventListener('mouseleave', () => {
+document.querySelector('.cards-wrapper')?.addEventListener('mouseleave', () => {
   setActive(0);
 });
-

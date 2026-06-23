@@ -1,34 +1,30 @@
 <header class="site-header">
   <div class="top-bar">
-    <div
-      class="container-fluid d-flex justify-content-between align-items-center">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
       <div class="top-bar-contacts d-flex gap-3">
-        <a href="tel:+15875004784"
-          class="top-bar-item d-flex align-items-center gap-2">
-          <i class="fa-solid fa-phone"></i> +1 (587) 500-4784
+        <a href="tel:+15875004784" class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa fa-phone" aria-hidden="true"></i> +1 (587) 500-4784
         </a>
-        <a href="tel:+16517807578"
-          class="top-bar-item d-flex align-items-center gap-2">
-          <i class="fa-solid fa-phone"></i> +1 (651) 780-7578
+        <a href="tel:+16517807578" class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa fa-phone" aria-hidden="true"></i> +1 (651) 780-7578
         </a>
-        <a href="mailto:info@ditstek.com"
-          class="top-bar-item d-flex align-items-center gap-2">
-          <i class="fa-solid fa-envelope"></i> info@ditstek.com
+        <a href="mailto:info@ditstek.com" class="top-bar-item d-flex align-items-center gap-2">
+          <i class="fa fa-envelope" aria-hidden="true"></i> info@ditstek.com
         </a>
       </div>
       <div class="d-flex gap-4">
-        <a href="#" class="top-bar-social-link" aria-label="LinkedIn"><i
-            class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#" class="top-bar-social-link" aria-label="X (Twitter)"><i
-            class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" class="top-bar-social-link" aria-label="Facebook"><i
-            class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" class="top-bar-social-link" aria-label="YouTube"><i
-            class="fa-brands fa-youtube"></i></a>
-        <a href="#" class="top-bar-social-link" aria-label="Instagram"><i
-            class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="top-bar-social-link" aria-label="Behance"><i
-            class="fa-brands fa-behance"></i></a>
+        <a href="https://www.linkedin.com/company/ditstek" target="_blank" rel="noopener noreferrer"
+          class="top-bar-social-link" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/ditstek" target="_blank" rel="noopener noreferrer" class="top-bar-social-link"
+          aria-label="X (Twitter)"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/ditstek" target="_blank" rel="noopener noreferrer" class="top-bar-social-link"
+          aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/@ditstek" target="_blank" rel="noopener noreferrer" class="top-bar-social-link"
+          aria-label="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/ditstek" target="_blank" rel="noopener noreferrer"
+          class="top-bar-social-link" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.behance.net/ditstek" target="_blank" rel="noopener noreferrer" class="top-bar-social-link"
+          aria-label="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -36,170 +32,134 @@
   <nav class="main-nav navbar">
     <div class="container-fluid">
 
-      <a href="<?php echo $url; ?>index.php"
-        class="navbar-brand d-flex align-items-center text-decoration-none">
-        <img src="<?php echo $url; ?>assets/images/svg/logo.svg" alt="DiTStek Logo"
-          title="DiTStek Logo" class="nav-logo-img">
+      <a href="<?php echo $url; ?>index.php" class="navbar-brand d-flex align-items-center text-decoration-none">
+        <img src="<?php echo $url; ?>assets/images/home-page/svg/logo.svg" alt="BITS" class="img-fluid">
       </a>
 
-      <ul
-        class="nav-menu d-flex align-items-center list-unstyled mb-0 ms-5 gap-1">
+      <ul class="nav-menu d-flex align-items-center list-unstyled mb-0 ms-5 gap-1">
 
         <li class="nav-item has-dropdown position-relative">
-          <a href="#" class="nav-link-item d-flex align-items-center gap-1">AI
-            SERVICES <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <a href="#" class="nav-link-item d-flex align-items-center gap-1">ai services <i
+              class="fa fa-chevron-down nav-arrow"></i></a>
           <div class="dropdown-menu-custom mega-menu position-absolute">
-            <p class="mega-menu-title text-uppercase">Faster, Smarter & Cost
-              Saving AI Development Services to Join Marketplace With Ease</p>
+            <p class="mega-menu-title">faster, smarter & cost
+              saving ai development services to join marketplace with ease</p>
             <ul class="mega-menu-list list-unstyled d-flex flex-wrap">
               <li class="w-50"><a href="<?php echo $url; ?>services/ai-software-development.php"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Software
+                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i class="fa fa-arrow-right"></i>
+                  AI Software
                   Development</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Chatbot
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI Chatbot
                   Development</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Agent
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI Agent
                   Development</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> Generative AI
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> Generative AI
                   Development Solutions</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Integration
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI Integration
                   Services</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Consulting</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI SaaS
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI Consulting</a></li>
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI SaaS
                   Platform</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI Solutions For
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI Solutions For
                   Enterprise</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In Fintech</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold  gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In Oil &
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In Fintech</a></li>
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold  gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In Oil &
                   Gas</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In
                   Healthcare</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In
                   Manufacturing</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In Mining</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In Mining</a></li>
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In
                   Agriculture</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In Real
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In Real
                   Estate</a></li>
-              <li class="w-50"><a href="#"
-                  class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
-                    class="fa-solid fa-arrow-right"></i> AI In
+              <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center fw-bold gap-2"><i
+                    class="fa fa-arrow-right"></i> AI In
                   Insurance</a></li>
             </ul>
           </div>
         </li>
 
         <li class="nav-item">
-          <a href="<?php echo $url; ?>pages/about.php" class="nav-link-item">ABOUT US</a>
+          <a href="<?php echo $url; ?>pages/about.php" class="nav-link-item">about us</a>
         </li>
 
         <li class="nav-item has-dropdown position-relative">
-          <a href="#"
-            class="nav-link-item d-flex align-items-center gap-1">SERVICES <i
-              class="fa-solid fa-chevron-down nav-arrow"></i></a>
-          <div
-            class="dropdown-menu-custom mega-menu services-mega-menu position-absolute">
+          <a href="#" class="nav-link-item d-flex align-items-center gap-1">services <i
+              class="fa fa-chevron-down nav-arrow"></i></a>
+          <div class="dropdown-menu-custom mega-menu services-mega-menu position-absolute">
             <div class="d-flex">
               <div class="flex-grow-1 border-end pe-4 me-4">
-                <h6 class="text-uppercase services-header">SERVICES</h6>
-                <p class="text-uppercase mega-menu-title">COST-EFFECTIVE
-                  SOFTWARE DEVELOPMENT AND SUPPORT SERVICES</p>
+                <h6 class=" services-header">services</h6>
+                <p class="mega-menu-title">cost-effective
+                  software development and support services</p>
                 <ul class="mega-menu-list list-unstyled d-flex flex-wrap">
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> IT Consulting
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> IT Consulting
                       Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Custom Application
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Custom Application
                       Development</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Software
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Software
                       Development Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Full-Stack
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Full-Stack
                       Development Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Dedicated
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Dedicated
                       Development Team</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Backend Development
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Backend Development
                       Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Legacy
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Legacy
                       Modernization Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> QA Software Testing
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> QA Software Testing
                       Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> MVP
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> MVP
                       Development</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Cross Platform
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Cross Platform
                       Development</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Enterprise Software
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Enterprise Software
                       Development</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Product Engineering
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Product Engineering
                       Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Cloud Computing
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Cloud Computing
                       Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Digital
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> Digital
                       Transformation Services</a></li>
-                  <li class="w-50"><a href="#"
-                      class="text-decoration-none d-flex align-items-center gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> SaaS Product
+                  <li class="w-50"><a href="#" class="text-decoration-none d-flex align-items-center gap-2"><i
+                        class="fa fa-arrow-right"></i> SaaS Product
                       Development</a></li>
                 </ul>
               </div>
               <div class="right-column">
                 <ul class="mega-menu-list list-unstyled">
-                  <li class="mb-2"><a href="#"
-                      class="text-decoration-none d-flex hire-developers gap-2"><i
-                        class="fa-solid fa-arrow-right"></i> Hire Remote
+                  <li class="mb-2"><a href="#" class="text-decoration-none d-flex hire-developers gap-2"><i
+                        class="fa fa-arrow-right"></i> Hire Remote
                       Developers</a></li>
                   <li><a href="#" class="text-decoration-none hire-link">Hire
                       Asp.Net Developers</a></li>
@@ -216,34 +176,30 @@
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link-item">OUR PRODUCTS</a>
+          <a href="#" class="nav-link-item">our products</a>
         </li>
 
         <li class="nav-item has-dropdown position-relative">
-          <a href="#"
-            class="nav-link-item d-flex align-items-center gap-1">INDUSTRIES <i
-              class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <a href="#" class="nav-link-item d-flex align-items-center gap-1">industries <i
+              class="fa fa-chevron-down nav-arrow"></i></a>
           <ul class="dropdown-menu-custom position-absolute list-unstyled">
-            <li><a href="#"
-                class="text-decoration-none d-block">Healthcare</a></li>
-            <li><a href="#"
-                class="text-decoration-none d-block">Finance</a></li>
+            <li><a href="#" class="text-decoration-none d-block">Healthcare</a></li>
+            <li><a href="#" class="text-decoration-none d-block">Finance</a></li>
             <li><a href="#" class="text-decoration-none d-block">Retail</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link-item">BLOGS</a>
+          <a href="#" class="nav-link-item">blogs</a>
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link-item">TECHFOLIO</a>
+          <a href="#" class="nav-link-item">techfolio</a>
         </li>
 
         <li class="nav-item has-dropdown position-relative">
-          <a href="#"
-            class="nav-link-item d-flex align-items-center gap-1">EVENTS <i
-              class="fa-solid fa-chevron-down nav-arrow"></i></a>
+          <a href="#" class="nav-link-item d-flex align-items-center gap-1">events <i
+              class="fa fa-chevron-down nav-arrow"></i></a>
           <ul class="dropdown-menu-custom position-absolute list-unstyled">
             <li><a href="#" class="text-decoration-none d-block">Upcoming
                 Events</a></li>
@@ -253,13 +209,12 @@
         </li>
 
         <li class="nav-item">
-          <a href="<?php echo $url; ?>pages/contact.php" class="nav-link-item">CONTACT US</a>
+          <a href="<?php echo $url; ?>pages/contact.php" class="nav-link-item">contact us</a>
         </li>
 
       </ul>
 
-      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle menu"
-        aria-expanded="false">
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
@@ -271,11 +226,11 @@
   <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-menu-header">
-      <img src="<?php echo $url; ?>assets/images/svg/logo.svg" alt="DiTStek Logo"
-        class="nav-logo-img">
-      <button class="mobile-menu-close" id="mobileMenuClose"
-        aria-label="Close menu">
-        <i class="fa-solid fa-xmark"></i>
+      <a href="<?php echo $url; ?>index.php" class="navbar-brand d-flex align-items-center text-decoration-none">
+        <img src="<?php echo $url; ?>assets/images/home-page/svg/logo.svg" alt="DiTStek Logo" class="img-fluid">
+      </a>
+      <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+        <i class="fa fa-times"></i>
       </button>
     </div>
 
@@ -283,7 +238,7 @@
 
       <li class="mobile-nav-item has-dropdown">
         <div class="mobile-nav-link" data-toggle="mobile-dropdown">
-          AI SERVICES <i class="fa-solid fa-plus mobile-arrow"></i>
+          ai services <i class="fa fa-plus mobile-arrow"></i>
         </div>
         <ul class="mobile-dropdown list-unstyled">
           <li><a href="<?php echo $url; ?>services/ai-software-development.php">AI Software Development</a></li>
@@ -306,12 +261,12 @@
       </li>
 
       <li class="mobile-nav-item">
-        <a href="<?php echo $url; ?>pages/about.php" class="mobile-nav-link">ABOUT US</a>
+        <a href="<?php echo $url; ?>pages/about.php" class="mobile-nav-link">about us</a>
       </li>
 
       <li class="mobile-nav-item has-dropdown">
         <div class="mobile-nav-link" data-toggle="mobile-dropdown">
-          SERVICES <i class="fa-solid fa-plus mobile-arrow"></i>
+          services <i class="fa fa-plus mobile-arrow"></i>
         </div>
         <ul class="mobile-dropdown list-unstyled">
           <li><a href="#">IT Consulting Services</a></li>
@@ -338,12 +293,12 @@
       </li>
 
       <li class="mobile-nav-item">
-        <a href="#" class="mobile-nav-link">OUR PRODUCTS</a>
+        <a href="#" class="mobile-nav-link">our products</a>
       </li>
 
       <li class="mobile-nav-item has-dropdown">
         <div class="mobile-nav-link" data-toggle="mobile-dropdown">
-          INDUSTRIES <i class="fa-solid fa-plus mobile-arrow"></i>
+          industries <i class="fa fa-plus mobile-arrow"></i>
         </div>
         <ul class="mobile-dropdown list-unstyled">
           <li><a href="#">Healthcare</a></li>
@@ -353,16 +308,16 @@
       </li>
 
       <li class="mobile-nav-item">
-        <a href="#" class="mobile-nav-link">BLOGS</a>
+        <a href="#" class="mobile-nav-link">blogs</a>
       </li>
 
       <li class="mobile-nav-item">
-        <a href="#" class="mobile-nav-link">TECHFOLIO</a>
+        <a href="#" class="mobile-nav-link">techfolio</a>
       </li>
 
       <li class="mobile-nav-item has-dropdown">
         <div class="mobile-nav-link" data-toggle="mobile-dropdown">
-          EVENTS <i class="fa-solid fa-plus mobile-arrow"></i>
+          events <i class="fa fa-plus mobile-arrow"></i>
         </div>
         <ul class="mobile-dropdown list-unstyled">
           <li><a href="#">Upcoming Events</a></li>
@@ -371,7 +326,7 @@
       </li>
 
       <li class="mobile-nav-item">
-        <a href="<?php echo $url; ?>pages/contact.php" class="mobile-nav-link">CONTACT US</a>
+        <a href="<?php echo $url; ?>pages/contact.php" class="mobile-nav-link">contact us</a>
       </li>
 
     </ul>

@@ -1,27 +1,88 @@
+/* Compact Header Toggle - SCSS Version */
 .site-footer {
-  background: #dfedfb;
+  background: #dfedfb !important;
 }
 .site-footer .footer-col {
   padding-left: 24px;
 }
 @media (max-width: 991px) {
-  .site-footer .footer-col .footer-col {
-    padding-left: 1rem;
-    margin-bottom: 2rem;
+  .site-footer .footer-col {
+    padding-left: 16px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer .footer-col:first-child {
+    border-bottom: 1px solid rgba(20, 59, 110, 0.3);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 }
 .site-footer .border-start {
-  border-left: 1px solid rgba(20, 59, 110, 0.3) !important;
+  border-left: 2px solid rgba(20, 59, 110, 0.3) !important;
+}
+@media (max-width: 767px) {
+  .site-footer .border-start {
+    border-left: none !important;
+  }
 }
 .site-footer .footer-title {
-  color: #0d6efd;
+  color: #3095fb;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 .site-footer .footer-contact li {
-  margin-bottom: 0.75rem;
-  font-size: 1.25rem;
+  margin-bottom: 12px;
+  font-size: 16px;
   line-height: 1.4;
+}
+.site-footer .site-footer-dark {
+  background: #18191a !important;
+  color: #bcbcbc;
+}
+.site-footer .site-footer-dark .border-start-dark {
+  border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+@media (max-width: 767px) {
+  .site-footer .site-footer-dark .border-start-dark {
+    border-left: none !important;
+  }
+}
+.site-footer .site-footer-dark .footer-title {
+  color: #bcbcbc;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.site-footer .site-footer-dark .footer-about-text {
+  color: #bcbcbc;
+}
+.site-footer .site-footer-dark .footer-links li {
+  margin-bottom: 12px;
+}
+.site-footer .site-footer-dark .footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+.site-footer .site-footer-dark .footer-links li a:hover {
+  color: #193370;
+}
+.site-footer .site-footer-dark .footer-bottom {
+  border-top: none;
+  color: #a8b2bc;
+}
+.site-footer .site-footer-dark .footer-bottom .copyright-text {
+  color: #bcbcbc;
+}
+.site-footer .site-footer-dark .footer-bottom .privacy-policy {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.site-footer .site-footer-dark .footer-bottom .privacy-policy:hover {
+  color: #193370;
 }
 
 /*# sourceMappingURL=footer.css.map */

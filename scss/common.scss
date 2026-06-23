@@ -333,8 +333,23 @@ body {
   transition: all 0.3s ease;
 }
 
+.hero-btn-white {
+  background: $white-color;
+  color: $secondary-color;
+  border-radius: 8px;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+  padding: 15px 25px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $light-blue;
+    color: $white-color;
+  }
+}
+
 //ai-services//
-.marqueeWrapper {
+.marquee-wrapper {
   background: $white-color;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -342,7 +357,7 @@ body {
   overflow: hidden;
   width: 100%;
 
-  .marqueeTrack {
+  .marquee-track {
     display: flex;
     align-items: center;
     width: max-content;
