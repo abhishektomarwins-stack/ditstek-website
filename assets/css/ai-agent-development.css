@@ -1,0 +1,60 @@
+.hero-section {
+  position: relative;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .hero-section {
+    height: auto;
+    padding: 60px 0;
+  }
+}
+.hero-section .hero-video-bg {
+  object-fit: cover;
+}
+.hero-section h1 {
+  font-size: clamp(32px, 5vw, 55px);
+  margin-bottom: 22px;
+  line-height: 1.2;
+}
+@media (max-width: 576px) {
+  .hero-section h1 {
+    margin-bottom: 16px;
+  }
+}
+.hero-section p {
+  font-size: clamp(16px, 1.5vw, 16px);
+  max-width: 590px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+@media (max-width: 991px) {
+  .hero-section p {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+}
+.hero-section .hero-visual {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hero-section .hero-visual img {
+  max-height: 80vh;
+  object-fit: contain;
+  transform: scale(1.15);
+  transform-origin: right center;
+}
+@media (max-width: 991px) {
+  .hero-section .hero-visual {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .hero-section .hero-visual img {
+    max-height: 50vh;
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=ai-agent-development.css.map */

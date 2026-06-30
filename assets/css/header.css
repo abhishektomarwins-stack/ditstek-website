@@ -83,9 +83,10 @@
 .main-nav .dropdown-menu-custom {
   top: 100%;
   left: 0;
-  min-width: 200px;
+  min-width: 240px;
   background: #fff;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-top: 3px solid #193370;
   box-shadow: 0 8px 24px rgba(25, 51, 112, 0.12);
   padding: 8px 0;
@@ -96,12 +97,13 @@
 .main-nav .dropdown-menu-custom li a {
   padding: 10px 20px;
   font-size: 18px;
-  color: #333 !important;
+  color: #155a9f !important;
   transition: background 0.15s, color 0.15s;
 }
 .main-nav .dropdown-menu-custom li a:hover {
   background: #dfedfb;
   color: #3095fb !important;
+  text-decoration: underline !important;
 }
 .main-nav .dropdown-menu-custom.mega-menu {
   min-width: 800px;
@@ -137,10 +139,11 @@
   color: #3095fb !important;
 }
 .main-nav .dropdown-menu-custom.mega-menu .mega-menu-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   margin-bottom: 20px;
   letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 .main-nav .dropdown-menu-custom.mega-menu .mega-menu-list li {
   padding: 0;
@@ -257,6 +260,11 @@
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.5px;
+}
+@media (max-width: 1435px) {
+  .mobile-menu .mobile-nav-item .mobile-nav-link {
+    text-transform: uppercase !important;
+  }
 }
 .mobile-menu .mobile-nav-item .mobile-nav-link .mobile-arrow {
   font-size: 11px;

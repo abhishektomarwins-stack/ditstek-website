@@ -3,6 +3,8 @@ if (!isset($url)) {
     $url = "./";
 }
 ?>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--favicon-->
 <link rel="icon" type="image/png" href="<?php echo $url; ?>assets/images/home-page/favicon.png" />
 
@@ -12,7 +14,6 @@ if (!isset($url)) {
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/fonts.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/header.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/footer.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo $url; ?>assets/css/home.css" type="text/css" />
 
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/font-awesome.min.css" type="text/css" />
 

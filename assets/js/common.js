@@ -2,38 +2,49 @@ document.addEventListener('DOMContentLoaded', () => {
   const yearEl = document.getElementById('footer-year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  const marqueeWrapper = document.querySelector('.marquee-wrapper');
-  const track = document.getElementById('marquee-track');
-  if (track && marqueeWrapper) {
-    const originals = Array.from(track.children);
-    for (let i = 0; i < 6; i++) {
-      originals.forEach(img => track.appendChild(img.cloneNode(true)));
-    }
+  const marqueeWrappers = document.querySelectorAll('.marquee-wrapper');
+  
+  marqueeWrappers.forEach(marqueeWrapper => {
+    const track = marqueeWrapper.querySelector('.marquee-track');
+    if (track) {
+      const originals = Array.from(track.children);
+      for (let i = 0; i < 6; i++) {
+        originals.forEach(img => track.appendChild(img.cloneNode(true)));
+      }
 
-    let paused = false;
-    marqueeWrapper.addEventListener('mouseenter', () => { paused = true; });
-    marqueeWrapper.addEventListener('mouseleave', () => { paused = false; });
+      let paused = false;
+      marqueeWrapper.addEventListener('mouseenter', () => { paused = true; });
+      marqueeWrapper.addEventListener('mouseleave', () => { paused = false; });
 
-    function startMarquee() {
-      let half = 0;
-      originals.forEach(img => {
-        half += img.getBoundingClientRect().width + 120;
-      });
-      if (half === 0) { setTimeout(startMarquee, 100); return; }
-      let pos = 0;
-      function tick() {
-        if (!paused) {
-          pos -= 1;
-          if (pos <= -half) pos = 0;
-          track.style.transform = 'translateX(' + pos + 'px)';
+      function startMarquee() {
+        let half = 0;
+        originals.forEach(img => {
+          // Fallback to 120px gap if window matchMedia isn't used, sticking to original logic
+          let gap = 120;
+          if (window.innerWidth <= 991 && window.innerWidth > 576) gap = 60;
+          if (window.innerWidth <= 576) gap = 30;
+          half += img.getBoundingClientRect().width + gap;
+        });
+        if (half === 0) { setTimeout(startMarquee, 100); return; }
+        let pos = 0;
+        function tick() {
+          if (!paused) {
+            pos -= 1;
+            if (pos <= -half) pos = 0;
+            track.style.transform = 'translateX(' + pos + 'px)';
+          }
+          requestAnimationFrame(tick);
         }
         requestAnimationFrame(tick);
       }
-      requestAnimationFrame(tick);
-    }
 
-    window.addEventListener('load', startMarquee);
-  }
+      window.addEventListener('load', startMarquee);
+      // In case the load event already fired
+      if (document.readyState === 'complete') {
+        startMarquee();
+      }
+    }
+  });
 });
 
 async function loadIncludes() {
@@ -140,8 +151,8 @@ $(document).ready(function () {
     autoWidth: true,
     center: true,
     navText: [
-      '<i class="fas fa-chevron-left"></i>',
-      '<i class="fas fa-chevron-right"></i>'
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
     ],
     responsive: {
       0: { autoWidth: false, center: false, items: 1 },
@@ -153,8 +164,12 @@ $(document).ready(function () {
   $(".industry-carousel").owlCarousel({
     loop: true,
     margin: 30,
-    nav: false,
-    dots: true,
+    nav: true,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ],
+    dots: false,
     autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
@@ -162,6 +177,25 @@ $(document).ready(function () {
       0: { items: 1 },
       768: { items: 2 },
       992: { items: 2 }
+    }
+  });
+
+  $(".roadmap-slider").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    navText: [
+      '<i class="fa fa-arrow-left"></i>',
+      '<i class="fa fa-arrow-right"></i>'
+    ],
+    dots: false,
+    responsive: {
+      0: { items: 1 },
+      768: { items: 2 },
+      992: { items: 3 }
     }
   });
 

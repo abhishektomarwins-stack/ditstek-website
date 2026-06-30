@@ -94,6 +94,7 @@
       .nav-link-item {
         padding: 12px 6px;
         font-size: 14px;
+
       }
     }
   }
@@ -101,9 +102,10 @@
   .dropdown-menu-custom {
     top: 100%;
     left: 0;
-    min-width: 200px;
+    min-width: 240px;
     background: #fff;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-top: 3px solid #193370;
     box-shadow: 0 8px 24px rgba(25, 51, 112, 0.12);
     padding: 8px 0;
@@ -114,12 +116,13 @@
     li a {
       padding: 10px 20px;
       font-size: $font-size-18;
-      color: #333 !important;
+      color: #155a9f !important;
       transition: background 0.15s, color 0.15s;
 
       &:hover {
         background: $light-bg;
         color: $primary-color !important;
+        text-decoration: underline !important;
       }
     }
 
@@ -164,10 +167,11 @@
       }
 
       .mega-menu-title {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 600;
         margin-bottom: 20px;
         letter-spacing: 0.5px;
+        text-transform: uppercase;
       }
 
       .mega-menu-list {
@@ -305,6 +309,10 @@
       text-decoration: none;
       cursor: pointer;
       letter-spacing: 0.5px;
+
+      @media (max-width: 1435px) {
+        text-transform: uppercase !important;
+      }
 
       .mobile-arrow {
         font-size: 11px;

@@ -1,4 +1,4 @@
-<?php 
+<?php
 $url = "./";
 ?>
 <!DOCTYPE html>
@@ -7,6 +7,7 @@ $url = "./";
 <head>
   <title>Ditstek Innovations</title>
   <?php include_once 'common/common-css.php'; ?>
+  <link rel="stylesheet" href="<?php echo $url; ?>assets/css/home.css" type="text/css" />
 </head>
 
 <body class="page-home">
@@ -191,6 +192,92 @@ $url = "./";
                 globe.
               </p>
             </div>
+
+            <div class="service-card">
+              <h3>Offshore Custom Software Development</h3>
+              <p>
+                Our experts at DITS, provide analytics-enabled, cloud-native
+                custom software development solutions tailored to your business
+                needs, ensuring they provide tangible value and meet the unique
+                requirements of your business & users.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Web Development</h3>
+              <p>
+                Regardless of your business's size or complexity, our experts
+                are equipped to tackle any challenge. We specialize in crafting
+                tailored web-based software solutions, including web portals,
+                applications, and SaaS solutions, to streamline your
+                mission-critical processes.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Mobile App Development</h3>
+              <p>
+                Our offshore mobile app developers cover your entire development
+                journey, from conceptualization to a fully functional product.
+                We handle all the front-end and back-end development processes
+                to create cross-platform app prototypes, MVP development, etc.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Web Application Development</h3>
+              <p>
+                Partner with our offshore software development team to build
+                technologically advanced web applications customized to your
+                specific business needs. We have proven ourselves as a trusted
+                offshore software development firm for our clients across the
+                globe.
+              </p>
+            </div>
+
+            <!-- Batch 3 -->
+            <div class="service-card">
+              <h3>Offshore Custom Software Development</h3>
+              <p>
+                Our experts at DITS, provide analytics-enabled, cloud-native
+                custom software development solutions tailored to your business
+                needs, ensuring they provide tangible value and meet the unique
+                requirements of your business & users.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Web Development</h3>
+              <p>
+                Regardless of your business's size or complexity, our experts
+                are equipped to tackle any challenge. We specialize in crafting
+                tailored web-based software solutions, including web portals,
+                applications, and SaaS solutions, to streamline your
+                mission-critical processes.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Mobile App Development</h3>
+              <p>
+                Our offshore mobile app developers cover your entire development
+                journey, from conceptualization to a fully functional product.
+                We handle all the front-end and back-end development processes
+                to create cross-platform app prototypes, MVP development, etc.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <h3>Offshore Web Application Development</h3>
+              <p>
+                Partner with our offshore software development team to build
+                technologically advanced web applications customized to your
+                specific business needs. We have proven ourselves as a trusted
+                offshore software development firm for our clients across the
+                globe.
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -412,7 +499,7 @@ $url = "./";
 
   <section class="case-studies-section">
     <div class="container">
-      <div class="case-studies-banner row g-0 align-items-center rounded-2 text-white overflow-hidden">
+      <div class="case-studies-banner row g-0 align-items-center text-white overflow-hidden">
         <div class="case-studies-image col-lg-6">
           <img src="<?php echo $url; ?>assets/images/home-page/case-study.webp" alt="Software Development Case Studies"
             title="Software Development Case Studies" class="img-fluid">
@@ -448,9 +535,9 @@ $url = "./";
             <div class="benefit-card position-relative rounded-3 overflow-hidden" data-index="0">
               <img src="<?php echo $url; ?>assets/images/home-page/startups-1.webp" alt="Startups" title="Startups"
                 class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
-              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-end">
-                <h4 class="vertical-text text-white fs-5 fw-semibold">Startups</h4>
-                <p class="d-xl-none text-white mt-2 mb-0">Startups often
+              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
+                <h4 class="vertical-text fs-5 fw-semibold">Startups</h4>
+                <p class="d-xl-none text-white mt-4 mb-0">Startups often
                   have limited resources
                   and tight budgets.
                   Outsourcing software development allows them to access
@@ -465,11 +552,11 @@ $url = "./";
               <img src="<?php echo $url; ?>assets/images/home-page/startups-2.webp"
                 alt="Small and Medium-Sized Businesses" title="Small and Medium-Sized Businesses"
                 class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
-              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-end">
-                <h4 class="vertical-text text-white fs-5 fw-semibold">Small
-                  and Medium-<br>Sized
+              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
+                <h4 class="vertical-text fs-5 fw-semibold">Small
+                  and Medium-Sized
                   Businesses</h4>
-                <p class="d-xl-none text-white mt-2 mb-0">SMEs may lack the
+                <p class="d-xl-none text-white mt-4 mb-0">SMEs may lack the
                   resources to maintain
                   an in-house development
                   team or invest in expensive software development tools and
@@ -483,10 +570,10 @@ $url = "./";
             <div class="benefit-card position-relative rounded-3 overflow-hidden" data-index="2">
               <img src="<?php echo $url; ?>assets/images/home-page/startups-3.webp" alt="Large Enterprises"
                 title="Large Enterprises" class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
-              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-end">
-                <h4 class="vertical-text text-white fs-5 fw-semibold">Large
+              <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
+                <h4 class="vertical-text fs-5 fw-semibold text-white">Large
                   Enterprises</h4>
-                <p class="d-xl-none text-white mt-2 mb-0">Even large
+                <p class="d-xl-none text-white mt-4 mb-0">Even large
                   enterprises can benefit from
                   software outsourcing,
                   especially when they need to scale up quickly or require
@@ -689,7 +776,7 @@ $url = "./";
 
       <div class="row g-4 mb-4">
         <div class="col-md-6">
-          <div class="partner-card h-100 rounded-4 text-white">
+          <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
               <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-1.svg" alt="Proactive Team"
                 title="Proactive Team" class="me-3" width="48" height="48">
@@ -703,7 +790,7 @@ $url = "./";
           </div>
         </div>
         <div class="col-md-6">
-          <div class="partner-card h-100  rounded-4 text-white">
+          <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
               <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-2.svg" alt="Accountability"
                 title="Accountability" class="me-3" width="48" height="48">
@@ -722,7 +809,7 @@ $url = "./";
 
       <div class="row g-4">
         <div class="col-lg-4 col-md-6">
-          <div class="partner-card h-100  rounded-4 text-white">
+          <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
               <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-3.svg" alt="Best Practices"
                 title="Best Practices" class="me-3" width="48" height="48">
@@ -738,7 +825,7 @@ $url = "./";
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="partner-card h-100  rounded-4 text-white">
+          <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
               <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-4.svg" alt="Cost-Effective Solutions"
                 title="Cost-Effective Solutions" class="me-3" width="48" height="48">
@@ -753,7 +840,7 @@ $url = "./";
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="partner-card h-100  rounded-4 text-white">
+          <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
               <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-5.svg" alt="Scalability"
                 title="Scalability" class="me-3" width="48" height="48">

@@ -331,7 +331,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/custom-ai.webp" alt="Custom AI" title="Custom AI"
             class="ai-solution-image img-fluid">
@@ -346,7 +346,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/generative-ai.webp" alt="Generative AI"
             title="Generative AI" class="ai-solution-image img-fluid">
@@ -361,7 +361,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/smart-ai.webp" alt="Smart AI" title="Smart AI"
             class="ai-solution-image img-fluid">
@@ -376,7 +376,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/ai-integration.webp" alt="AI Integration"
             title="AI Integration" class="ai-solution-image img-fluid">
@@ -391,7 +391,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/ai-strategy.webp" alt="AI Strategy" title="AI Strategy"
             class="ai-solution-image img-fluid">
@@ -406,7 +406,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/ai-copilot.webp" alt="AI Copilot" title="AI Copilot"
             class="ai-solution-image img-fluid">
@@ -421,7 +421,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/ai-agent.webp" alt="AI Agent" title="AI Agent"
             class="ai-solution-image img-fluid">
@@ -436,7 +436,7 @@ $url = "../";
         </div>
       </div>
 
-      <div class="ai-solution-item row align-items-center mb-4">
+      <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
           <img src="<?php echo $url; ?>assets/images/ai-software/ai-cybersecurity.webp" alt="AI Cybersecurity"
             title="AI Cybersecurity" class="ai-solution-image img-fluid">
@@ -620,7 +620,642 @@ $url = "../";
     </div>
   </section>
 
+  <section class="ai-solution-section">
+    <div class="container">
 
+      <div class="future-cta">
+        <div class="cta-wrapper">
+
+          <div class="row align-items-center gy-4">
+
+            <div class="col-lg-5 text-center d-none d-lg-block">
+              <img src="<?php echo $url; ?>assets/images/ai-software/future-img.webp" alt="AI Development"
+                title="AI Development" class="img-fluid">
+            </div>
+
+            <div class="col-lg-7">
+              <div class="cta-content">
+
+                <h3>
+                  Want to Future-proof Your Business with Our
+                  Computer Vision Development Services?
+                </h3>
+
+                <p>
+                  From building smarter visual intelligence to automating
+                  visual
+                  analysis, we will help you build top AI solutions that
+                  simplify
+                  workflows and improve operational efficiency across your
+                  business.
+                </p>
+
+                <a href="/contact-us" class="btn hero-btn">
+                  Get AI Dev Support
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="enterprise-solution">
+
+        <div class="solution-header">
+          <div class="row align-items-start gy-4">
+
+            <div class="col-lg-6">
+              <h2 class="solution-title">
+                Our Top AI Software Development Solutions for Modern
+                Enterprises
+              </h2>
+            </div>
+
+            <div class="col-lg-5 offset-lg-1">
+              <p class="solution-description">
+                Witness unparalleled business growth with our enterprise AI
+                solutions ensuring scalable growth, solving practical
+                challenges
+                and attaining measurable outcomes.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="solution-card-wrapper">
+          <div class="row g-0">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/business-automation.svg"
+                    alt="Business Automation" title="Business Automation">
+                </div>
+
+                <h3 class="solution-card-title">
+                  Business Automation Platforms
+                </h3>
+
+                <p class="solution-card-text">
+                  Enables businesses to automate their processes and improve
+                  workflow efficiency. The use of AI agents, improved customer
+                  service, data-driven decision-making, and instant
+                  scalability
+                  is possible at reduced costs.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/predictive-analytics.svg"
+                    alt="Predictive Analytics" title="Predictive Analytics">
+                </div>
+
+                <h3 class="solution-card-title">
+                  Predictive Analytics Dashboards
+                </h3>
+
+                <p class="solution-card-text">
+                  The management team will be able to predict trends, risks,
+                  customer behavior, market demand, and potential performance
+                  results. These dashboards will give visibility regarding
+                  future events that might occur.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/crm-erp.svg" alt="CRM and ERP"
+                    title="CRM and ERP">
+                </div>
+
+                <h3 class="solution-card-title">
+                  CRM and ERP Modules
+                </h3>
+
+                <p class="solution-card-text">
+                  The AI-based CRM and ERP models are incorporated with
+                  existing
+                  systems to automate transactions, such as lead scoring,
+                  customer segmentation, inventory management,
+                  and demand forecasting.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/fraud-detection.svg" alt="Fraud Detection"
+                    title="Fraud Detection">
+                </div>
+
+                <h3 class="solution-card-title">
+                  Fraud Detection System
+                </h3>
+
+                <p class="solution-card-text">
+                  Artificial intelligence is used to detect any fraudulent
+                  activities or processes to reduce financial losses
+                  and improve security.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/customer-support.svg"
+                    alt="Customer Support Automation" title="Customer Support Automation">
+                </div>
+
+                <h3 class="solution-card-title">
+                  Customer Support Automation
+                </h3>
+
+                <p class="solution-card-text">
+                  Enhances customer service and support through the use
+                  of chatbots, ticketing, and other forms of automation
+                  in customer service.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="solution-card">
+
+                <div class="solution-icon">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/genai-knowledge-assistants.svg"
+                    alt="GenAI Knowledge Assistants" title="GenAI Knowledge Assistants">
+                </div>
+
+                <h3 class="solution-card-title">
+                  GenAI Knowledge Assistants
+                </h3>
+
+                <p class="solution-card-text">
+                  Enables employees to have access to various sources
+                  of information, like documents, databases,
+                  and corporate policies and get instant support
+                  across different time zones.
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="roadmap-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-xl-4 d-none d-xl-flex roadmap-image align-items-center justify-content-center">
+          <img src="<?php echo $url; ?>assets/images/ai-software/roadmap-process.webp" alt="AI Cybernetic Face Graphic"
+            title="AI Cybernetic Face Graphic" />
+        </div>
+
+        <div class="col-xl-8 col-12">
+          <div class="roadmap-content">
+            <h2 class="roadmap-title">Our Successful Roadmap to AI Software
+              Development Process</h2>
+            <p class="roadmap-description">
+              Hire our dedicated AI software developers that offer end-to-end
+              generative AI development services right
+              from planning, to strategizing, development to launch.
+            </p>
+          </div>
+
+          <div class="owl-carousel owl-theme roadmap-slider">
+
+            <div class="roadmap-step-item">
+              <div class="step-number">01</div>
+              <h3 class="step-title">Discovery</h3>
+              <p class="step-description">
+                Aims at analyzing business needs, current processes, data, and
+                potential AI use cases and thus becomes
+                clear where AI can be used and what benefits it may bring.
+              </p>
+            </div>
+
+            <div class="roadmap-step-item">
+              <div class="step-number">02</div>
+              <h3 class="step-title">Strategy</h3>
+              <p class="step-description">
+                Outlines the technical roadmap, architectural design, data
+                strategy, and key performance indicators for
+                your custom AI solution.
+              </p>
+            </div>
+
+            <div class="roadmap-step-item">
+              <div class="step-number">03</div>
+              <h3 class="step-title">Development</h3>
+              <p class="step-description">
+                Custom trains machine learning models, engineers robust APIs,
+                and integrates the core AI logic into your
+                business workflows.
+              </p>
+            </div>
+
+            <div class="roadmap-step-item">
+              <div class="step-number">04</div>
+              <h3 class="step-title">QA & Testing</h3>
+              <p class="step-description">
+                Conducts thorough regression testing, model calibration, user
+                acceptance testing, and comprehensive data
+                security audits.
+              </p>
+            </div>
+
+            <div class="roadmap-step-item">
+              <div class="step-number">05</div>
+              <h3 class="step-title">Launch</h3>
+              <p class="step-description">
+                Seamlessly deploys the AI models to cloud or edge
+                infrastructures, ensuring smooth transition and
+                optimal scalability.
+              </p>
+            </div>
+
+            <div class="roadmap-step-item">
+              <div class="step-number">06</div>
+              <h3 class="step-title">Support</h3>
+              <p class="step-description">
+                Provides continuous monitoring, model retraining, system
+                updates, and dedicated technical support to
+                keep your AI running optimally.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-hero-section py-5 position-relative overflow-hidden text-white">
+    <div class="container">
+      <h3 class="hero-title text-white mb-4 text-center text-lg-start">Tech
+        Stacks We Use for Custom AI Model Development
+      </h3>
+
+      <div class="tech-stack-wrapper p-4 p-md-3 mb-5 shadow-sm">
+        <div class="d-flex flex-wrap gap-1 justify-content-center justify-content-lg-start">
+
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>HTML5</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>CSS3</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>TypeScript</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>React.js</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Angular</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Vue.js</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Next.js</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Tailwind CSS</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Python</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Node.js</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>PyTorch</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>.NET</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Java</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>TensorFlow</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>PostgreSQL</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>TensorFlow</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>MongoDB</span>
+          </div>
+          <div class="tech-stack-item d-flex align-items-center gap-2 text-black">
+            <span>Docker</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row align-items-center gy-5">
+
+        <div class="col-lg-5 robot-col position-relative d-flex justify-content-center justify-content-lg-start">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-chatbot-avatar.webp" alt="AI Robot Chatbot Avatar"
+            title="AI Robot Chatbot Avatar" class="img-fluid" />
+        </div>
+
+        <div class="col-lg-7 content-col">
+          <div class="hero-content">
+            <h2 class="main-heading text-white fw-bold mb-3">Turn Every
+              Customer Query into a Faster Response with AI
+              Chatbot Development Services</h2>
+            <p class="hero-description mb-4">Upgrade your customer service with
+              AI-powered chatbots that reduce support
+              delays, handle lead interactions, and deliver faster responses
+              across every digital touchpoint.</p>
+            <a href="/contact-us" class="btn hero-btn">Start
+              Your AI Journey</a>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="marquee-wrapper py-2">
+    <div class="container-fluid">
+      <div class="row g-0">
+        <div class="col-12">
+          <div class="marquee-track" id="marquee-track">
+            <img src="<?php echo $url; ?>assets/images/ai-software/trustpilot.webp" alt="Trustpilot" title="Trustpilot">
+            <img src="<?php echo $url; ?>assets/images/ai-software/goodfirms.webp" alt="GoodFirms" title="GoodFirms">
+            <img src="<?php echo $url; ?>assets/images/ai-software/capterra.webp" alt="Capterra" title="Capterra">
+            <img src="<?php echo $url; ?>assets/images/ai-software/design-rush.webp" alt="Design Rush"
+              title="Design Rush">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-cost-section ">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <h2 class="cost-title fw-bold mb-3">AI Software Development Cost for
+          Every Business Type</h2>
+        <p class="cost-description mx-auto">
+          Harness our AI software development solutions and get the desired
+          AI-powered software according to your
+          business needs. At DITS, we offer transparent pricing pages with
+          absolutely no hidden costs. At DITS, we offer
+          flexible pricing models for our clients, and our AI software
+          development cost starts at $20,000.
+        </p>
+      </div>
+
+      <div class="cost-wrapper p-4 p-md-5">
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cost-card h-100 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="card-title">For Startups</h3>
+                <ul class="cost-list list-unstyled">
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Single AI feature or small automation
+                      workflow</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Basic AI chatbot or virtual assistant</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>1-2 data sources integration</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Basic dashboard or reporting module</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Standard UI/UX and backend setup</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Basic security and access control</span>
+                  </li>
+                </ul>
+              </div>
+              <a href="/contact-us" class="btn hero-btn w-100 text-center">
+                View Estimate</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cost-card h-100 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="card-title">For Mid-Size</h3>
+                <ul class="cost-list list-unstyled">
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Multiple AI features or workflow automation</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>AI chatbot + predictive analytics module</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>CRM, ERP, or third-party API integration</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Custom backend + admin panel</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Data processing and model training</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Role-based access and monitoring</span>
+                  </li>
+                </ul>
+              </div>
+              <a href="/contact-us" class="btn hero-btn w-100 text-center">
+                View Estimate</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="cost-card h-100 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="card-title">For Enterprises</h3>
+                <ul class="cost-list list-unstyled">
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Full-scale custom AI software solution</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Advanced ML, GenAI, NLP, or computer vision
+                      capabilities</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Multiple system integrations across
+                      departments</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Enterprise-grade dashboard and analytics</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-check"></i>
+                    <span>Advanced security, compliance, and
+                      governance</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Ongoing monitoring, optimization, and scalability
+                      support</span>
+                  </li>
+                </ul>
+              </div>
+              <a href="/contact-us" class="btn hero-btn w-100 text-center">
+                View Estimate</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="start-your-dream">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Start Your Dream with AI!</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="development-partner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 text-white">
+          <h2 class="pb-2">Pick DITS as Your trustworthy AI Software
+            Development Company! </h2>
+          <p>DITS is a trusted AI software development services company
+            delivering scalable, secure, and
+            high-performance AI solutions. We specialize in custom AI ML
+            software development services tailored to
+            meet unique business needs across industries.</p>
+        </div>
+        <div class="col-12">
+          <div class="development-firm-carousel">
+            <ul>
+              <li class="development-list">
+                <div class="development-content">
+                  <h3>Expert Digital Engineering</h3>
+                  <p>DITS combines AI, IoT, and cloud technologies to
+                    deliver intelligent automation and smart
+                    decision-making. As an AI/ML development services
+                    provider, we focus on performance, scalability,
+                    and system security for smooth enterprise adoption.</p>
+                </div>
+                <div class="mx-auto">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/expert-digital-engineering.svg"
+                    alt="expert digital engineering" title="expert digital engineering" loading="lazy"
+                    class="img-fluid">
+                </div>
+              </li>
+              <li class="development-list">
+                <div class="development-content">
+                  <h3>Comprehensive Tech Stack</h3>
+                  <p>We offer AI ML software development services using
+                    technologies like NLP, computer vision, data
+                    analytics, RPA, React Native, Python, and
+                    MongoDB—ensuring seamless system integration and
+                    automation of business processes.</p>
+                </div>
+                <div class="mx-auto">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/comprehens-ve-tech-stack.svg"
+                    alt="Comprehensive Tech Stack" title="Comprehensive Tech Stack" loading="lazy" class="img-fluid">
+                </div>
+              </li>
+              <li class="development-list">
+                <div class="development-content">
+                  <h3>Proven Development Process</h3>
+                  <p>DITS follows agile methodology with precision. Our team
+                    handles every stage of AI based software
+                    development services from ideation to deployment and
+                    optimization—ensuring robust, scalable AI
+                    applications for business success.</p>
+                </div>
+                <div class="mx-auto">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/proven-development-process.svg"
+                    alt="Proven Development Process" title="Proven Development Process" loading="lazy"
+                    class="img-fluid">
+                </div>
+              </li>
+              <li class="development-list">
+                <div class="development-content">
+                  <h3>Industry-Specific Expertise</h3>
+                  <p>As an experienced AI software development services
+                    company, we develop industry-specific AI
+                    solutions for healthcare, fintech, logistics, IoT, and
+                    more—addressing real-world problems and
+                    driving business innovation through intelligent
+                    systems.</p>
+                </div>
+                <div class="mx-auto">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/industry-experience.svg"
+                    alt="Industry-Specific Expertise" title="Industry-Specific Expertise" loading="lazy"
+                    class="img-fluid">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <?php include_once '../common/footer.php'; ?>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

@@ -1,11 +1,11 @@
 <footer class="site-footer pt-5">
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row align-items-start mb-5">
 
-            <div class="col-lg-3 col-md-6 footer-col border-start">
-                <h3 class="footer-title">headquarters</h3>
+            <div class="col-lg-3 col-md-3 footer-col border-start">
+                <h3 class="footer-title">Headquarters</h3>
 
-                <h5 class="fw-bold mb-3">mohali, india</h5>
+                <h5 class="fw-bold mb-3">Mohali, India</h5>
 
                 <ul class="list-unstyled fw-bold footer-contact">
                     <li>+1 (587) 500-4784</li>
@@ -14,36 +14,36 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-col border-start">
-                <h3 class="footer-title">onshore</h3>
+            <div class="col-lg-9 col-md-9 footer-col border-start border-end">
+                <h3 class="footer-title">Onshore</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                        <h5 class="fw-bold mb-3">Canada</h5>
+                        <ul class="list-unstyled fw-bold footer-contact">
+                            <li>+1 (587) 500-4784</li>
+                            <li>+1 (651) 780-7578</li>
+                            <li>saarthak.madaan@ditstek.com</li>
+                        </ul>
+                    </div>
 
-                <h5 class="fw-bold mb-3">canada</h5>
+                    <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                        <h5 class="fw-bold mb-3">Montana, USA</h5>
+                        <ul class="list-unstyled fw-bold footer-contact">
+                            <li>+1 (406) 672-8292</li>
+                            <li>+1 (651) 780-7578</li>
+                            <li>tom@whitewater.dev</li>
+                        </ul>
+                    </div>
 
-                <ul class="list-unstyled fw-bold footer-contact">
-                    <li>+1 (587) 500-4784</li>
-                    <li>+1 (651) 780-7578</li>
-                    <li>saarthak.madaan@ditstek.com</li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-col">
-                <h5 class="fw-bold mb-3 mt-lg-5">montana, usa</h5>
-
-                <ul class="list-unstyled fw-bold footer-contact">
-                    <li>+1 (406) 672-8292</li>
-                    <li>+1 (651) 780-7578</li>
-                    <li>tom@whitewater.dev</li>
-                </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-col">
-                <h5 class="fw-bold mb-3 mt-lg-5">california, usa</h5>
-
-                <ul class="list-unstyled fw-bold footer-contact">
-                    <li>+1 (877) 559-6361</li>
-                    <li>+1 (651) 780-7578</li>
-                    <li>info@abellasys.com</li>
-                </ul>
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="fw-bold mb-3">California, USA</h5>
+                        <ul class="list-unstyled fw-bold footer-contact">
+                            <li>+1 (877) 559-6361</li>
+                            <li>+1 (651) 780-7578</li>
+                            <li>info@abellasys.com</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
