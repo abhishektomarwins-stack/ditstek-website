@@ -44,8 +44,7 @@ $url = "./";
 
         <div class="col-lg-6 mb-5 mb-lg-0 ">
           <div class="offshore-img-wrapper position-relative pe-lg-3">
-            <img src="<?php echo $url; ?>assets/images/home-page/offshore-1.webp"
-              alt="Offshore Software Development Team" class="offshore-img img-fluid rounded-4 shadow-sm w-100">
+            <img src="<?php echo $url; ?>assets/images/home-page/offshore-1.webp" class="offshore-img img-fluid rounded-4 shadow-sm w-100" alt="Offshore 1" title="Offshore 1">
 
             <div class="success-badge-wrapper position-absolute">
               <div class="success-badge d-flex flex-column align-items-center justify-content-center text-center">
@@ -94,8 +93,7 @@ $url = "./";
 
             <div class="feature-item d-flex align-items-start gap-3">
               <div class="feature-icon-box rounded-3 d-flex align-items-center justify-content-center flex-shrink-0">
-                <img src="<?php echo $url; ?>assets/images/home-page/svg/offshore-1.svg"
-                  alt="Industry Specific Expertise" class="feature-icon">
+                <img src="<?php echo $url; ?>assets/images/home-page/svg/offshore-1.svg" class="feature-icon" alt="Offshore 1" title="Offshore 1">
               </div>
               <div>
                 <h3 class="feature-title mb-1 fs-5">Industry Specific
@@ -109,8 +107,8 @@ $url = "./";
 
             <div class="feature-item d-flex align-items-start gap-3">
               <div class="feature-icon-box rounded-3 d-flex align-items-center justify-content-center flex-shrink-0">
-                <img src="<?php echo $url; ?>assets/images/home-page/svg/offshore-2.svg" alt="Process Transparency"
-                  class="feature-icon">
+                <img src="<?php echo $url; ?>assets/images/home-page/svg/offshore-2.svg"
+                  class="feature-icon" alt="Offshore 2" title="Offshore 2">
               </div>
               <div>
                 <h3 class="feature-title mb-1 fs-5">Process
@@ -293,8 +291,7 @@ $url = "./";
             <div class="col-sm-6">
               <div class="stat-card p-4 rounded-2 h-100">
                 <div class="stat-icon-wrapper mb-3 rounded-3 d-flex align-items-center justify-content-center">
-                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-1.svg"
-                    alt="Seasoned Software Pros" class="stat-icon">
+                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-1.svg" class="stat-icon" alt="Professional Skills 1" title="Professional Skills 1">
                 </div>
                 <h3 class="stat-number  mb-1">100+</h3>
                 <p class="stat-label mb-0">Seasoned Software Pros</p>
@@ -304,8 +301,7 @@ $url = "./";
             <div class="col-sm-6">
               <div class="stat-card p-4 rounded-2 h-100">
                 <div class="stat-icon-wrapper mb-3 rounded-3 d-flex align-items-center justify-content-center">
-                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-2.svg"
-                    alt="Reduction In Development Costs" class="stat-icon">
+                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-2.svg" class="stat-icon" alt="Professional Skills 2" title="Professional Skills 2">
                 </div>
                 <h3 class="stat-number  mb-1">40%</h3>
                 <p class="stat-label mb-0">Reduction In Development
@@ -316,8 +312,7 @@ $url = "./";
             <div class="col-sm-6">
               <div class="stat-card p-4 rounded-2 h-100">
                 <div class="stat-icon-wrapper mb-3 rounded-3 d-flex align-items-center justify-content-center">
-                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-3.svg"
-                    alt="Client Retention" class="stat-icon">
+                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-3.svg" class="stat-icon" alt="Professional Skills 3" title="Professional Skills 3">
                 </div>
                 <h3 class="stat-number  mb-1">97%</h3>
                 <p class="stat-label mb-0">Client Retention</p>
@@ -327,8 +322,7 @@ $url = "./";
             <div class="col-sm-6">
               <div class="stat-card p-4 rounded-2 h-100">
                 <div class="stat-icon-wrapper mb-3 rounded-3 d-flex align-items-center justify-content-center">
-                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-4.svg"
-                    alt="Customer Satisfaction" class="stat-icon">
+                  <img src="<?php echo $url; ?>assets/images/home-page/svg/professional-skills-4.svg" class="stat-icon" alt="Professional Skills 4" title="Professional Skills 4">
                 </div>
                 <h3 class="stat-number  mb-1">100%</h3>
                 <p class="stat-label mb-0">Customer Satisfaction</p>
@@ -391,8 +385,8 @@ $url = "./";
 
   <section class="benefits-section">
     <div class="container">
-      <img src="<?php echo $url; ?>assets/images/home-page/dev-bottom.webp" class="benefits-bg-bottom" alt>
-      <img src="<?php echo $url; ?>assets/images/home-page/dev-top.webp" class="benefits-bg-top" alt>
+      <img src="<?php echo $url; ?>assets/images/home-page/dev-bottom.webp" class="benefits-bg-bottom" alt alt="Dev Bottom" title="Dev Bottom">
+      <img src="<?php echo $url; ?>assets/images/home-page/dev-top.webp" class="benefits-bg-top" alt alt="Dev Top" title="Dev Top">
       <div class="row benefits-layout g-4">
 
         <div class="benefits-left col-lg-5">
@@ -400,8 +394,7 @@ $url = "./";
             Benefits Of Working With An Offshore Software Development Firm
           </h2>
           <div class="benefits-img-wrapper">
-            <img src="<?php echo $url; ?>assets/images/home-page/development-firm.webp"
-              alt="Benefits of Working with Offshore Software Development Firm" class="img-fluid  w-100">
+            <img src="<?php echo $url; ?>assets/images/home-page/development-firm.webp" class="img-fluid  w-100" alt="Development Firm" title="Development Firm">
           </div>
         </div>
 
@@ -409,8 +402,7 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-1.svg"
-                alt="Improved Flexibility" class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-1.svg" class="benefits-icon" alt="Pool Flexibility 1" title="Pool Flexibility 1">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Improved
               Flexibility</h3>
@@ -423,8 +415,7 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center ">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-2.svg"
-                alt="Faster Time To Market" class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-2.svg" class="benefits-icon" alt="Pool Flexibility 2" title="Pool Flexibility 2">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Faster Time To
               Market</h3>
@@ -437,8 +428,7 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center ">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-3.svg"
-                alt="Increased Talent Pool" class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-3.svg" class="benefits-icon" alt="Pool Flexibility 3" title="Pool Flexibility 3">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Increased
               Talent Pool</h3>
@@ -451,8 +441,8 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center ">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-4.svg" alt="Better Productivity"
-                class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-4.svg"
+                class="benefits-icon" alt="Pool Flexibility 4" title="Pool Flexibility 4">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Better
               Productivity</h3>
@@ -465,8 +455,8 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center ">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-5.svg" alt="Cost Effectiveness"
-                class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-5.svg"
+                class="benefits-icon" alt="Pool Flexibility 5" title="Pool Flexibility 5">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Cost
               Effectiveness</h3>
@@ -479,8 +469,8 @@ $url = "./";
 
           <div class="benefits-card bg-white p-4 rounded-4 shadow-sm d-flex flex-column align-items-start">
             <div class="benefits-icon-box d-flex align-items-center justify-content-center ">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-6.svg" alt="Data Security"
-                class="benefits-icon">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/pool-flexibility-6.svg"
+                class="benefits-icon" alt="Pool Flexibility 6" title="Pool Flexibility 6">
             </div>
             <h3 class="benefits-card-title mb-2 fs-5 fw-bold">Data
               Security</h3>
@@ -501,8 +491,7 @@ $url = "./";
     <div class="container">
       <div class="case-studies-banner row g-0 align-items-center text-white overflow-hidden">
         <div class="case-studies-image col-lg-6">
-          <img src="<?php echo $url; ?>assets/images/home-page/case-study.webp" alt="Software Development Case Studies"
-            title="Software Development Case Studies" class="img-fluid">
+          <img src="<?php echo $url; ?>assets/images/home-page/case-study.webp" class="img-fluid" alt="Case Study" title="Case Study">
         </div>
         <div class="case-studies-content col-lg-6">
           <h2 class="fw-bold">Software Development Case Studies</h2>
@@ -533,8 +522,8 @@ $url = "./";
           <div class="cards-wrapper d-flex gap-3 justify-content-center flex-wrap flex-xl-nowrap">
 
             <div class="benefit-card position-relative rounded-3 overflow-hidden" data-index="0">
-              <img src="<?php echo $url; ?>assets/images/home-page/startups-1.webp" alt="Startups" title="Startups"
-                class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
+              <img src="<?php echo $url; ?>assets/images/home-page/startups-1.webp"
+                class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover" alt="Startups 1" title="Startups 1">
               <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
                 <h4 class="vertical-text fs-5 fw-semibold">Startups</h4>
                 <p class="d-xl-none text-white mt-4 mb-0">Startups often
@@ -550,8 +539,7 @@ $url = "./";
 
             <div class="benefit-card position-relative rounded-3 overflow-hidden" data-index="1">
               <img src="<?php echo $url; ?>assets/images/home-page/startups-2.webp"
-                alt="Small and Medium-Sized Businesses" title="Small and Medium-Sized Businesses"
-                class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
+                class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover" alt="Startups 2" title="Startups 2">
               <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
                 <h4 class="vertical-text fs-5 fw-semibold">Small
                   and Medium-Sized
@@ -568,8 +556,7 @@ $url = "./";
             </div>
 
             <div class="benefit-card position-relative rounded-3 overflow-hidden" data-index="2">
-              <img src="<?php echo $url; ?>assets/images/home-page/startups-3.webp" alt="Large Enterprises"
-                title="Large Enterprises" class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover">
+              <img src="<?php echo $url; ?>assets/images/home-page/startups-3.webp" class="w-100 h-100 position-absolute start-0 top-0 object-fit-cover" alt="Startups 3" title="Startups 3">
               <div class="card-content position-relative w-100 h-100 p-4 z-2 d-xl-flex align-items-xl-center">
                 <h4 class="vertical-text fs-5 fw-semibold text-white">Large
                   Enterprises</h4>
@@ -669,93 +656,90 @@ $url = "./";
         <div class="col-12">
           <div class="owl-carousel tech-slider">
             <div class="tech-card bg-white rounded-3  d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/html-5.webp" alt="HTML5" title="HTML5"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/html-5.webp"
+                class="img-fluid" alt="Html 5" title="Html 5">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/jquery.webp" alt="jQuery" title="jQuery"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/jquery.webp"
+                class="img-fluid" alt="Jquery" title="Jquery">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/json.webp" alt="JSON" title="JSON" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/json.webp" class="img-fluid" alt="Json" title="Json">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/ajax.webp" alt="AJAX" title="AJAX" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/ajax.webp" class="img-fluid" alt="Ajax" title="Ajax">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/javascript.webp" alt="JavaScript" title="JavaScript"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/javascript.webp"
+                class="img-fluid" alt="Javascript" title="Javascript">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/mano-db.webp" alt="MongoDB" title="MongoDB"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/mano-db.webp"
+                class="img-fluid" alt="Mano Db" title="Mano Db">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/net-enity-frame-work.webp" alt="Entity Framework"
-                title="Entity Framework" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/net-enity-frame-work.webp" class="img-fluid" alt="Net Enity Frame Work" title="Net Enity Frame Work">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/asp.net-webform.webp" alt="ASP.NET Web Forms"
-                title="ASP.NET Web Forms" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/asp.net-webform.webp" class="img-fluid" alt="Asp.net Webform" title="Asp.net Webform">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/react.webp" alt="React" title="React"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/react.webp"
+                class="img-fluid" alt="React" title="React">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/vue-js.webp" alt="Vue.js" title="Vue.js"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/vue-js.webp"
+                class="img-fluid" alt="Vue Js" title="Vue Js">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/angular.webp" alt="Angular" title="Angular"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/angular.webp"
+                class="img-fluid" alt="Angular" title="Angular">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/node.webp" alt="Node.js" title="Node.js"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/node.webp"
+                class="img-fluid" alt="Node" title="Node">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/php.webp" alt="PHP" title="PHP" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/php.webp" class="img-fluid" alt="Php" title="Php">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/laravel.webp" alt="Laravel" title="Laravel"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/laravel.webp"
+                class="img-fluid" alt="Laravel" title="Laravel">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/mysql.webp" alt="MySQL" title="MySQL"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/mysql.webp"
+                class="img-fluid" alt="Mysql" title="Mysql">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/postgresql.webp" alt="PostgreSQL" title="PostgreSQL"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/postgresql.webp"
+                class="img-fluid" alt="Postgresql" title="Postgresql">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/aws.webp" alt="AWS" title="AWS" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/aws.webp" class="img-fluid" alt="Aws" title="Aws">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/azure.webp" alt="Azure" title="Azure"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/azure.webp"
+                class="img-fluid" alt="Azure" title="Azure">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/google-cloud.webp" alt="Google Cloud"
-                title="Google Cloud" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/google-cloud.webp" class="img-fluid" alt="Google Cloud" title="Google Cloud">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/devops.webp" alt="DevOps" title="DevOps"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/devops.webp"
+                class="img-fluid" alt="Devops" title="Devops">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/bootstrap.webp" alt="Bootstrap" title="Bootstrap"
-                class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/bootstrap.webp"
+                class="img-fluid" alt="Bootstrap" title="Bootstrap">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/sass.webp" alt="Sass" title="Sass" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/sass.webp" class="img-fluid" alt="Sass" title="Sass">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/less.webp" alt="Less" title="Less" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/less.webp" class="img-fluid" alt="Less" title="Less">
             </div>
             <div class="tech-card bg-white rounded-3 py-2 d-flex align-items-center justify-content-center">
-              <img src="<?php echo $url; ?>assets/images/home-page/c-sharp.webp" alt="C#" title="C#" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/home-page/c-sharp.webp" class="img-fluid" alt="C Sharp" title="C Sharp">
             </div>
           </div>
         </div>
@@ -778,8 +762,7 @@ $url = "./";
         <div class="col-md-6">
           <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-1.svg" alt="Proactive Team"
-                title="Proactive Team" class="me-3" width="48" height="48">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-1.svg" class="me-3" width="48" height="48" alt="Trusted 1" title="Trusted 1">
               <h3 class="fs-5 fw-bold mb-0">Proactive Team</h3>
             </div>
             <p class="mb-0 text-white-50">
@@ -792,8 +775,7 @@ $url = "./";
         <div class="col-md-6">
           <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-2.svg" alt="Accountability"
-                title="Accountability" class="me-3" width="48" height="48">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-2.svg" class="me-3" width="48" height="48" alt="Trusted 2" title="Trusted 2">
               <h3 class="fs-5 fw-bold mb-0">Accountability</h3>
             </div>
             <p class="mb-0 text-white-50">
@@ -811,8 +793,7 @@ $url = "./";
         <div class="col-lg-4 col-md-6">
           <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-3.svg" alt="Best Practices"
-                title="Best Practices" class="me-3" width="48" height="48">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-3.svg" class="me-3" width="48" height="48" alt="Trusted 3" title="Trusted 3">
               <h3 class="fs-5 fw-bold mb-0">Best Practices</h3>
             </div>
             <p class="mb-0 text-white-50">
@@ -827,8 +808,7 @@ $url = "./";
         <div class="col-lg-4 col-md-6">
           <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-4.svg" alt="Cost-Effective Solutions"
-                title="Cost-Effective Solutions" class="me-3" width="48" height="48">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-4.svg" class="me-3" width="48" height="48" alt="Trusted 4" title="Trusted 4">
               <h3 class="fs-5 fw-bold mb-0">Cost-Effective Solutions</h3>
             </div>
             <p class="mb-0 text-white-50">
@@ -842,8 +822,7 @@ $url = "./";
         <div class="col-lg-4 col-md-6">
           <div class="partner-card h-100 text-white">
             <div class="d-flex align-items-center mb-3">
-              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-5.svg" alt="Scalability"
-                title="Scalability" class="me-3" width="48" height="48">
+              <img src="<?php echo $url; ?>assets/images/home-page/svg/trusted-5.svg" class="me-3" width="48" height="48" alt="Trusted 5" title="Trusted 5">
               <h3 class="fs-5 fw-bold mb-0">Scalability</h3>
             </div>
             <p class="mb-0 text-white-50">
@@ -869,8 +848,7 @@ $url = "./";
         <div class="col-sm-12 col-lg-4 mb-sm-3 mb-lg-0">
           <div class="sector-column-wrap">
             <div class="sector-item-box mb-3 has-hover dark-bg-card">
-              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-1.webp" alt="Fintech"
-                title="Fintech image-fluid loading-lazy">
+              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-1.webp" alt="Fintech Softwere 1" title="Fintech Softwere 1">
               <div class="sector-details">
                 <h3>Fintech</h3>
                 <div class="sector-overlay-fx">
@@ -885,13 +863,10 @@ $url = "./";
             </div>
             <div class="sector-item-box sector-style-a has-hover">
               <img loading="lazy" class="indus-desk"
-                src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-2.webp" alt="Real Estate"
-                title="Real Estate image-fluid loading-lazy">
-              <img loading="lazy" class="indus-mobile" src="<?php echo $url; ?>assets/images/home-page/i-2.1.webp"
-                alt="Real Estate" title="Real Estate image-fluid loading-lazy">
+                src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-2.webp" alt="Fintech Softwere 2" title="Fintech Softwere 2">
+              <img loading="lazy" class="indus-mobile" src="<?php echo $url; ?>assets/images/home-page/i-2.1.webp" alt="I 2.1" title="I 2.1">
               <img loading="lazy" class="indus-shadow"
-                src="<?php echo $url; ?>assets/images/home-page/svg/real-estate.svg" alt="Real Estate"
-                title="Real Estate image-fluid loading-lazy">
+                src="<?php echo $url; ?>assets/images/home-page/svg/real-estate.svg" alt="Real Estate" title="Real Estate">
               <div class="sector-details">
                 <h3>Real Estate</h3>
                 <div class="sector-overlay-fx">
@@ -912,8 +887,7 @@ $url = "./";
         <div class="col-sm-12 col-lg-4 mb-sm-3 mb-lg-0">
           <div class="sector-column-wrap">
             <div class="sector-item-box mb-3 has-hover">
-              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-3.webp"
-                alt="Healthcare" title="Healthcare image-fluid loading-lazy">
+              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-3.webp" alt="Fintech Softwere 3" title="Fintech Softwere 3">
               <div class="sector-details">
                 <h3>Healthcare</h3>
                 <div class="sector-overlay-fx">
@@ -929,8 +903,7 @@ $url = "./";
               </div>
             </div>
             <div class="sector-item-box sector-style-b has-hover mb-3">
-              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-4.webp"
-                alt="Ed - Tech" title="Ed - Tech image-fluid loading-lazy">
+              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-4.webp" alt="Fintech Softwere 4" title="Fintech Softwere 4">
               <div class="sector-details">
                 <h3>Ed - Tech</h3>
                 <div class="sector-overlay-fx">
@@ -948,11 +921,9 @@ $url = "./";
         <div class="col-sm-12 col-lg-4 mb-sm-3 mb-lg-0">
           <div class="sector-column-wrap">
             <div class="sector-item-box mb-3 sector-style-c has-hover">
-              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-5.webp"
-                alt="Workflow Automation" title="Workflow Automation image-fluid loading-lazy">
+              <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-5.webp" alt="Fintech Softwere 5" title="Fintech Softwere 5">
               <img loading="lazy" class="indus-shadow"
-                src="<?php echo $url; ?>assets/images/home-page/svg/workflow-automation.svg" alt="Workflow Automation"
-                title="Workflow Automation image-fluid loading-lazy">
+                src="<?php echo $url; ?>assets/images/home-page/svg/workflow-automation.svg" alt="Workflow Automation" title="Workflow Automation">
               <div class="sector-details">
                 <h3>Workflow Automation </h3>
                 <div class="sector-overlay-fx">
@@ -967,12 +938,9 @@ $url = "./";
             </div>
             <div class="sector-item-box mb-3 sector-style-d has-hover">
               <img loading="lazy" class="indus-desk"
-                src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-6.webp" alt="IoT"
-                title="IoT image-fluid loading-lazy">
-              <img loading="lazy" class="indus-mobile" src="<?php echo $url; ?>assets/images/home-page/i-6.1.webp"
-                alt="IoT" title="IoT image-fluid loading-lazy">
-              <img loading="lazy" class="indus-shadow" src="<?php echo $url; ?>assets/images/home-page/svg/iot.svg"
-                alt="IoT" title="IoT image-fluid loading-lazy">
+                src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-6.webp" alt="Fintech Softwere 6" title="Fintech Softwere 6">
+              <img loading="lazy" class="indus-mobile" src="<?php echo $url; ?>assets/images/home-page/i-6.1.webp" alt="I 6.1" title="I 6.1">
+              <img loading="lazy" class="indus-shadow" src="<?php echo $url; ?>assets/images/home-page/svg/iot.svg" alt="Iot" title="Iot">
               <div class="sector-details">
                 <h3>IoT </h3>
                 <div class="sector-overlay-fx">
@@ -989,10 +957,8 @@ $url = "./";
         </div>
         <div class="col-sm-12 col-md-6 mb-1 mb-md-0">
           <div class="sector-item-box sector-style-e has-hover">
-            <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-7.webp" alt="Retail"
-              title="Retail image-fluid loading-lazy">
-            <img loading="lazy" class="indus-shadow" src="<?php echo $url; ?>assets/images/home-page/svg/retail.svg"
-              alt="Retail" title="Retail image-fluid loading-lazy">
+            <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-7.webp" alt="Fintech Softwere 7" title="Fintech Softwere 7">
+            <img loading="lazy" class="indus-shadow" src="<?php echo $url; ?>assets/images/home-page/svg/retail.svg" alt="Retail" title="Retail">
             <div class="sector-details">
               <h3>Retail</h3>
               <div class="sector-overlay-fx">
@@ -1010,8 +976,7 @@ $url = "./";
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="sector-item-box mb-3 sector-style-f dark-bg-card has-hover">
-            <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-8.webp"
-              alt="Logistics & Transportation" title="Logistics & Transportation image-fluid loading-lazy">
+            <img loading="lazy" src="<?php echo $url; ?>assets/images/home-page/fintech-softwere-8.webp" alt="Fintech Softwere 8" title="Fintech Softwere 8">
             <div class="sector-details">
               <h3>Logistics & Transportation</h3>
               <div class="sector-overlay-fx">
@@ -1061,28 +1026,23 @@ $url = "./";
 
               <ul class="list-unstyled mb-0">
                 <li class="feature-item">
-                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control1.svg"
-                      alt="Super Control" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control1.svg" width="20" height="20" alt="Super Control1" title="Super Control1"></span>
                   <span>Super Control</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control2.svg"
-                      alt="Guaranteed Security" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control2.svg" width="20" height="20" alt="Super Control2" title="Super Control2"></span>
                   <span>Guaranteed Security</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control3.svg"
-                      alt="Estimated Budget" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control3.svg" width="20" height="20" alt="Super Control3" title="Super Control3"></span>
                   <span>Estimated Budget</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control4.svg"
-                      alt="Immense Flexibility" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control4.svg" width="20" height="20" alt="Super Control4" title="Super Control4"></span>
                   <span>Immense Flexibility</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control5.svg"
-                      alt="Scaling The Teams" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/super-control5.svg" width="20" height="20" alt="Super Control5" title="Super Control5"></span>
                   <span>Scaling The Teams</span>
                 </li>
               </ul>
@@ -1104,33 +1064,25 @@ $url = "./";
 
               <ul class="list-unstyled mb-0">
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-1.svg"
-                      alt="Precise Price And Time" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-1.svg" width="20" height="20" alt="Precise Price 1" title="Precise Price 1"></span>
                   <span>Precise Price And Time</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-2.svg" alt="Accuracy" width="20"
-                      height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-2.svg" width="20"
+                      height="20" alt="Precise Price 2" title="Precise Price 2"></span>
                   <span>Accuracy</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-3.svg"
-                      alt="Transparent Operations" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-3.svg" width="20" height="20" alt="Precise Price 3" title="Precise Price 3"></span>
                   <span>Transparent Operations</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-4.svg"
-                      alt="Minimal Management And Supervision" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-4.svg" width="20" height="20" alt="Precise Price 4" title="Precise Price 4"></span>
                   <span>Minimal Management And Supervision</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-5.svg" alt="No Setup Fees"
-                      width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/precise-price-5.svg"
+                      width="20" height="20" alt="Precise Price 5" title="Precise Price 5"></span>
                   <span>No Setup Fees</span>
                 </li>
               </ul>
@@ -1153,33 +1105,26 @@ $url = "./";
 
               <ul class="list-unstyled mb-0">
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-1.svg" alt="Budget-Friendly"
-                      width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-1.svg"
+                      width="20" height="20" alt="Budget Friendly 1" title="Budget Friendly 1"></span>
                   <span>Budget-Friendly</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-2.svg"
-                      alt="Assured Quality Development" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-2.svg" width="20" height="20" alt="Budget Friendly 2" title="Budget Friendly 2"></span>
                   <span>Assured Quality Development</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-3.svg" alt="No Hidden Costs"
-                      width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-3.svg"
+                      width="20" height="20" alt="Budget Friendly 3" title="Budget Friendly 3"></span>
                   <span>No Hidden Costs</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-4.svg" alt="Monthly Billing"
-                      width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-4.svg"
+                      width="20" height="20" alt="Budget Friendly 4" title="Budget Friendly 4"></span>
                   <span>Monthly Billing</span>
                 </li>
                 <li class="feature-item">
-                  <span class="icon-circle"><img
-                      src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-5.svg"
-                      alt="Periodic Reporting And Review" width="20" height="20"></span>
+                  <span class="icon-circle"><img src="<?php echo $url; ?>assets/images/home-page/svg/budget-friendly-5.svg" width="20" height="20" alt="Budget Friendly 5" title="Budget Friendly 5"></span>
                   <span>Periodic Reporting And Review</span>
                 </li>
               </ul>
@@ -1192,6 +1137,8 @@ $url = "./";
     </div>
   </section>
 
+  <?php include_once 'common/faq.php'; ?>
+  <?php include_once 'common/form.php'; ?>
   <?php include_once 'common/footer.php'; ?>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

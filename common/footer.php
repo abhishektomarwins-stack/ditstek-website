@@ -52,8 +52,8 @@
             <div class="row align-items-start">
                 <div class="col-lg-5 col-md-6 footer-col">
                     <div class="footer-logo mb-4">
-                        <img src="<?php echo $url; ?>assets/images/home-page/svg/logo.svg" alt="BITS" class="img-fluid"
-                            style="max-width: 150px; filter: brightness(0) invert(1);">
+                        <img src="<?php echo $url; ?>assets/images/home-page/svg/logo.svg" class="img-fluid"
+                            style="max-width: 150px; filter: brightness(0) invert(1);" alt="Logo" title="Logo">
                     </div>
                     <h5 class="footer-title mb-3">About Us</h5>
                     <p class="footer-about-text pe-lg-4">

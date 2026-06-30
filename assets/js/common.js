@@ -243,3 +243,39 @@ benefitCards.forEach(card => {
 document.querySelector('.cards-wrapper')?.addEventListener('mouseleave', () => {
   setActive(0);
 });
+
+// FAQ Accordion Logic
+document.addEventListener("DOMContentLoaded", function() {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    if (faqItems.length) {
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            if (question) {
+                question.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all
+                    faqItems.forEach(faq => {
+                        faq.classList.remove('active');
+                        const ans = faq.querySelector('.faq-answer');
+                        if(ans) ans.style.maxHeight = null;
+                    });
+
+                    // If it wasn't active, open it
+                    if (!isActive) {
+                        item.classList.add('active');
+                        const answer = item.querySelector('.faq-answer');
+                        if(answer) answer.style.maxHeight = answer.scrollHeight + "px";
+                    }
+                });
+            }
+        });
+
+        // Set max height for the initially active item
+        const activeItems = document.querySelectorAll('.faq-item.active .faq-answer');
+        activeItems.forEach(activeItem => {
+            activeItem.style.maxHeight = activeItem.scrollHeight + "px";
+        });
+    }
+});

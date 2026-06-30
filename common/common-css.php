@@ -11,10 +11,11 @@ if (!isset($url)) {
 <!--css-->
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/common.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $url; ?>assets/css/faq.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $url; ?>assets/css/form.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/fonts.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/header.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/footer.css" type="text/css" />
-
 <link rel="stylesheet" href="<?php echo $url; ?>assets/css/font-awesome.min.css" type="text/css" />
 
 <!--owl carousel-->

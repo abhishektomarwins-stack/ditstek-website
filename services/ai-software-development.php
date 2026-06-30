@@ -50,8 +50,7 @@ $url = "../";
 
         <div class="col-lg-6 col-12 d-none d-lg-block">
           <div class="hero-visual">
-            <img src="<?php echo $url; ?>assets/images/ai-software/banner-image.webp"
-              alt="AI Software Development Services" title="AI Software Development Services" class="img-fluid" />
+            <img src="<?php echo $url; ?>assets/images/ai-software/banner-image.webp" class="img-fluid" alt="Banner Image" title="Banner Image" />
           </div>
         </div>
 
@@ -81,8 +80,7 @@ $url = "../";
         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="who-stat d-flex flex-column h-100">
             <div class="who-stat-icon d-flex mb-2">
-              <img src="<?php echo $url; ?>assets/images/ai-software/svg/experience.svg" alt="Years of Experience"
-                title="Years of Experience" />
+              <img src="<?php echo $url; ?>assets/images/ai-software/svg/experience.svg" alt="Experience" title="Experience" />
             </div>
 
             <div class="who-stat-number fw-bold">09+</div>
@@ -95,8 +93,7 @@ $url = "../";
         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="who-stat d-flex flex-column h-100">
             <div class="who-stat-icon d-flex mb-2">
-              <img src="<?php echo $url; ?>assets/images/ai-software/svg/project.svg" alt="Projects Delivered"
-                title="Projects Delivered" />
+              <img src="<?php echo $url; ?>assets/images/ai-software/svg/project.svg" alt="Project" title="Project" />
             </div>
 
             <div class="who-stat-number fw-bold">1000+</div>
@@ -109,8 +106,7 @@ $url = "../";
         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="who-stat d-flex flex-column h-100">
             <div class="who-stat-icon d-flex mb-2">
-              <img src="<?php echo $url; ?>assets/images/ai-software/svg/deployment.svg" alt="Deployment Success Rates"
-                title="Deployment Success Rates" />
+              <img src="<?php echo $url; ?>assets/images/ai-software/svg/deployment.svg" alt="Deployment" title="Deployment" />
             </div>
 
             <div class="who-stat-number fw-bold">96%</div>
@@ -123,8 +119,7 @@ $url = "../";
         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="who-stat d-flex flex-column h-100 border-0">
             <div class="who-stat-icon d-flex mb-2">
-              <img src="<?php echo $url; ?>assets/images/ai-software/svg/reduction.svg"
-                alt="Reduction in Operational Overhead" title="Reduction in Operational Overhead" />
+              <img src="<?php echo $url; ?>assets/images/ai-software/svg/reduction.svg" alt="Reduction" title="Reduction" />
             </div>
 
             <div class="who-stat-number fw-bold">60%</div>
@@ -161,10 +156,9 @@ $url = "../";
         <div class="col-12">
           <div class="marquee-track" id="marquee-track">
             <img src="<?php echo $url; ?>assets/images/ai-software/trustpilot.webp" alt="Trustpilot" title="Trustpilot">
-            <img src="<?php echo $url; ?>assets/images/ai-software/goodfirms.webp" alt="GoodFirms" title="GoodFirms">
+            <img src="<?php echo $url; ?>assets/images/ai-software/goodfirms.webp" alt="Goodfirms" title="Goodfirms">
             <img src="<?php echo $url; ?>assets/images/ai-software/capterra.webp" alt="Capterra" title="Capterra">
-            <img src="<?php echo $url; ?>assets/images/ai-software/design-rush.webp" alt="Design Rush"
-              title="Design Rush">
+            <img src="<?php echo $url; ?>assets/images/ai-software/design-rush.webp" alt="Design Rush" title="Design Rush">
           </div>
         </div>
       </div>
@@ -306,8 +300,7 @@ $url = "../";
 
           <div class="col-lg-5 col-12">
             <img class="img-fluid right-img" loading="lazy"
-              src="<?php echo $url; ?>assets/images/ai-software/custom-ai-software.webp" alt="Custom AI Software"
-              title="Custom AI Software" />
+              src="<?php echo $url; ?>assets/images/ai-software/custom-ai-software.webp" alt="Custom Ai Software" title="Custom Ai Software" />
           </div>
 
         </div>
@@ -333,8 +326,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/custom-ai.webp" alt="Custom AI" title="Custom AI"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/custom-ai.webp"
+            class="ai-solution-image img-fluid" alt="Custom Ai" title="Custom Ai">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">Custom AI Software Development</span>
@@ -348,8 +341,7 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/generative-ai.webp" alt="Generative AI"
-            title="Generative AI" class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/generative-ai.webp" class="ai-solution-image img-fluid" alt="Generative Ai" title="Generative Ai">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI Strategy Consulting Services</span>
@@ -363,8 +355,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/smart-ai.webp" alt="Smart AI" title="Smart AI"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/smart-ai.webp"
+            class="ai-solution-image img-fluid" alt="Smart Ai" title="Smart Ai">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">Smart AI Assistants</span>
@@ -378,8 +370,7 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-integration.webp" alt="AI Integration"
-            title="AI Integration" class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-integration.webp" class="ai-solution-image img-fluid" alt="Ai Integration" title="Ai Integration">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI App Development</span>
@@ -393,8 +384,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-strategy.webp" alt="AI Strategy" title="AI Strategy"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-strategy.webp"
+            class="ai-solution-image img-fluid" alt="Ai Strategy" title="Ai Strategy">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI Integration Services</span>
@@ -408,8 +399,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-copilot.webp" alt="AI Copilot" title="AI Copilot"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-copilot.webp"
+            class="ai-solution-image img-fluid" alt="Ai Copilot" title="Ai Copilot">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI Copilot Solutions</span>
@@ -423,8 +414,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-agent.webp" alt="AI Agent" title="AI Agent"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-agent.webp"
+            class="ai-solution-image img-fluid" alt="Ai Agent" title="Ai Agent">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI Chatbot Development</span>
@@ -438,8 +429,7 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-cybersecurity.webp" alt="AI Cybersecurity"
-            title="AI Cybersecurity" class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-cybersecurity.webp" class="ai-solution-image img-fluid" alt="Ai Cybersecurity" title="Ai Cybersecurity">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">AI Agent Development</span>
@@ -453,8 +443,8 @@ $url = "../";
 
       <div class="ai-solution-item row align-items-center border-0">
         <div class="col-lg-4 mb-3 mb-lg-0">
-          <img src="<?php echo $url; ?>assets/images/ai-software/aiops.webp" alt="AIOps" title="AIOps"
-            class="ai-solution-image img-fluid">
+          <img src="<?php echo $url; ?>assets/images/ai-software/aiops.webp"
+            class="ai-solution-image img-fluid" alt="Aiops" title="Aiops">
         </div>
         <div class="col-lg-8">
           <span class="ai-solution-tag d-inline-block mb-3">Legacy Modernization</span>
@@ -491,8 +481,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/ed-tech.svg" alt="AI In EdTech Business"
-              title="AI In EdTech Business">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/ed-tech.svg" alt="Ed Tech" title="Ed Tech">
           </div>
           <h3 class="industry-card-title">AI in EdTech Business</h3>
           <p class="industry-card-text">
@@ -514,8 +503,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/retail.svg" alt="AI In Retail Industry"
-              title="AI In Retail Industry">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/retail.svg" alt="Retail" title="Retail">
           </div>
           <h3 class="industry-card-title">AI in Retail Industry</h3>
           <p class="industry-card-text">
@@ -537,8 +525,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/agriculture.svg" alt="AI In Agriculture"
-              title="AI In Agriculture">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/agriculture.svg" alt="Agriculture" title="Agriculture">
           </div>
           <h3 class="industry-card-title">AI in Agriculture</h3>
           <p class="industry-card-text">
@@ -557,8 +544,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/insurance.svg" alt="AI In Insurance"
-              title="AI In Insurance">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/insurance.svg" alt="Insurance" title="Insurance">
           </div>
           <h3 class="industry-card-title">AI in Insurance</h3>
           <p class="industry-card-text">
@@ -577,8 +563,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/oil-gas.svg" alt="AI In Oil & Gas"
-              title="AI In Oil & Gas">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/oil-gas.svg" alt="Oil Gas" title="Oil Gas">
           </div>
           <h3 class="industry-card-title">AI in Oil & Gas</h3>
           <p class="industry-card-text">
@@ -597,8 +582,7 @@ $url = "../";
 
         <div class="industry-card">
           <div class="industry-icon">
-            <img src="<?php echo $url; ?>assets/images/ai-software/svg/healthcare.svg" alt="AI In Healthcare"
-              title="AI In Healthcare">
+            <img src="<?php echo $url; ?>assets/images/ai-software/svg/healthcare.svg" alt="Healthcare" title="Healthcare">
           </div>
           <h3 class="industry-card-title">AI in Healthcare</h3>
           <p class="industry-card-text">
@@ -629,8 +613,7 @@ $url = "../";
           <div class="row align-items-center gy-4">
 
             <div class="col-lg-5 text-center d-none d-lg-block">
-              <img src="<?php echo $url; ?>assets/images/ai-software/future-img.webp" alt="AI Development"
-                title="AI Development" class="img-fluid">
+              <img src="<?php echo $url; ?>assets/images/ai-software/future-img.webp" class="img-fluid" alt="Future Img" title="Future Img">
             </div>
 
             <div class="col-lg-7">
@@ -692,8 +675,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/business-automation.svg"
-                    alt="Business Automation" title="Business Automation">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/business-automation.svg" alt="Business Automation" title="Business Automation">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -715,8 +697,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/predictive-analytics.svg"
-                    alt="Predictive Analytics" title="Predictive Analytics">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/predictive-analytics.svg" alt="Predictive Analytics" title="Predictive Analytics">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -737,8 +718,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/crm-erp.svg" alt="CRM and ERP"
-                    title="CRM and ERP">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/crm-erp.svg" alt="Crm Erp" title="Crm Erp">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -760,8 +740,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/fraud-detection.svg" alt="Fraud Detection"
-                    title="Fraud Detection">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/fraud-detection.svg" alt="Fraud Detection" title="Fraud Detection">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -781,8 +760,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/customer-support.svg"
-                    alt="Customer Support Automation" title="Customer Support Automation">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/customer-support.svg" alt="Customer Support" title="Customer Support">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -802,8 +780,7 @@ $url = "../";
               <div class="solution-card">
 
                 <div class="solution-icon">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/genai-knowledge-assistants.svg"
-                    alt="GenAI Knowledge Assistants" title="GenAI Knowledge Assistants">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/genai-knowledge-assistants.svg" alt="Genai Knowledge Assistants" title="Genai Knowledge Assistants">
                 </div>
 
                 <h3 class="solution-card-title">
@@ -833,8 +810,7 @@ $url = "../";
       <div class="row align-items-center">
 
         <div class="col-xl-4 d-none d-xl-flex roadmap-image align-items-center justify-content-center">
-          <img src="<?php echo $url; ?>assets/images/ai-software/roadmap-process.webp" alt="AI Cybernetic Face Graphic"
-            title="AI Cybernetic Face Graphic" />
+          <img src="<?php echo $url; ?>assets/images/ai-software/roadmap-process.webp" alt="Roadmap Process" title="Roadmap Process" />
         </div>
 
         <div class="col-xl-8 col-12">
@@ -990,8 +966,7 @@ $url = "../";
       <div class="row align-items-center gy-5">
 
         <div class="col-lg-5 robot-col position-relative d-flex justify-content-center justify-content-lg-start">
-          <img src="<?php echo $url; ?>assets/images/ai-software/ai-chatbot-avatar.webp" alt="AI Robot Chatbot Avatar"
-            title="AI Robot Chatbot Avatar" class="img-fluid" />
+          <img src="<?php echo $url; ?>assets/images/ai-software/ai-chatbot-avatar.webp" class="img-fluid" alt="Ai Chatbot Avatar" title="Ai Chatbot Avatar" />
         </div>
 
         <div class="col-lg-7 content-col">
@@ -1017,10 +992,9 @@ $url = "../";
         <div class="col-12">
           <div class="marquee-track" id="marquee-track">
             <img src="<?php echo $url; ?>assets/images/ai-software/trustpilot.webp" alt="Trustpilot" title="Trustpilot">
-            <img src="<?php echo $url; ?>assets/images/ai-software/goodfirms.webp" alt="GoodFirms" title="GoodFirms">
+            <img src="<?php echo $url; ?>assets/images/ai-software/goodfirms.webp" alt="Goodfirms" title="Goodfirms">
             <img src="<?php echo $url; ?>assets/images/ai-software/capterra.webp" alt="Capterra" title="Capterra">
-            <img src="<?php echo $url; ?>assets/images/ai-software/design-rush.webp" alt="Design Rush"
-              title="Design Rush">
+            <img src="<?php echo $url; ?>assets/images/ai-software/design-rush.webp" alt="Design Rush" title="Design Rush">
           </div>
         </div>
       </div>
@@ -1200,9 +1174,8 @@ $url = "../";
                     and system security for smooth enterprise adoption.</p>
                 </div>
                 <div class="mx-auto">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/expert-digital-engineering.svg"
-                    alt="expert digital engineering" title="expert digital engineering" loading="lazy"
-                    class="img-fluid">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/expert-digital-engineering.svg" loading="lazy"
+                    class="img-fluid" alt="Expert Digital Engineering" title="Expert Digital Engineering">
                 </div>
               </li>
               <li class="development-list">
@@ -1215,8 +1188,7 @@ $url = "../";
                     automation of business processes.</p>
                 </div>
                 <div class="mx-auto">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/comprehens-ve-tech-stack.svg"
-                    alt="Comprehensive Tech Stack" title="Comprehensive Tech Stack" loading="lazy" class="img-fluid">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/comprehens-ve-tech-stack.svg" loading="lazy" class="img-fluid" alt="Comprehens Ve Tech Stack" title="Comprehens Ve Tech Stack">
                 </div>
               </li>
               <li class="development-list">
@@ -1229,9 +1201,8 @@ $url = "../";
                     applications for business success.</p>
                 </div>
                 <div class="mx-auto">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/proven-development-process.svg"
-                    alt="Proven Development Process" title="Proven Development Process" loading="lazy"
-                    class="img-fluid">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/proven-development-process.svg" loading="lazy"
+                    class="img-fluid" alt="Proven Development Process" title="Proven Development Process">
                 </div>
               </li>
               <li class="development-list">
@@ -1245,9 +1216,8 @@ $url = "../";
                     systems.</p>
                 </div>
                 <div class="mx-auto">
-                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/industry-experience.svg"
-                    alt="Industry-Specific Expertise" title="Industry-Specific Expertise" loading="lazy"
-                    class="img-fluid">
+                  <img src="<?php echo $url; ?>assets/images/ai-software/svg/industry-experience.svg" loading="lazy"
+                    class="img-fluid" alt="Industry Experience" title="Industry Experience">
                 </div>
               </li>
             </ul>
@@ -1257,6 +1227,8 @@ $url = "../";
     </div>
   </section>
 
+      <?php include_once '../common/faq.php'; ?>
+    <?php include_once '../common/form.php'; ?>
   <?php include_once '../common/footer.php'; ?>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

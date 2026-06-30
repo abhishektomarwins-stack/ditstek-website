@@ -1,60 +1,434 @@
+@use 'variables' as *;
+@use 'common' as *;
+
+
 .hero-section {
     position: relative;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41)),
+        url("../images/ai-agent/ai-banner.webp") center center / cover no-repeat;
     min-height: calc(100vh - 90px);
     display: flex;
     align-items: center;
+    padding: 60px 0;
 
-    @media (max-width: 991px) {
-        height: auto;
-        padding: 60px 0;
+    .hero-heading {
+        font-size: clamp(28px, 6vw, 50px);
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
     }
 
-    .hero-video-bg {
-        object-fit: cover;
+    .hero-desc {
+        width: 100%;
+        max-width: 900px;
+        color: #fff;
+        font-size: clamp(14px, 2.5vw, 18px);
     }
 
-    h1 {
-        font-size: clamp(32px, 5vw, 55px);
-        margin-bottom: 22px;
-        line-height: 1.2;
+    ul {
+        padding-left: 16px;
+    }
+}
 
-        @media (max-width: 576px) {
-            margin-bottom: 16px;
-        }
+.stats {
+    padding: 80px 0;
+    background: url("../images/ai-agent/elite-ai-banner.webp") center center / cover no-repeat;
+
+    .stats-wrapper {
+        padding: 40px 24px;
+        background: linear-gradient(93.08deg, rgba(39, 105, 191, 0.1) 0%, rgba(123, 180, 255, 0.1) 97.45%);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        border: 2px solid rgba(136, 180, 245, 0.4);
     }
 
-    p {
-        font-size: clamp(16px, 1.5vw, 16px);
-        max-width: 590px;
-        margin-bottom: 32px;
-        line-height: 1.6;
-
-        @media (max-width: 991px) {
-            max-width: 100%;
-            margin-bottom: 24px;
-        }
+    .who-stat {
+        padding: 15px;
     }
 
-    .hero-visual {
+    .who-stat-icon {
         display: flex;
-        justify-content: flex-end;
-        align-items: center;
+        margin-bottom: 24px;
 
-        img {
-            max-height: 80vh;
-            object-fit: contain;
-            transform: scale(1.15);
-            transform-origin: right center;
-        }
-
-        @media (max-width: 991px) {
+        .icon-box {
+            background: #ffffff;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
             justify-content: center;
-            margin-top: 30px;
 
             img {
-                max-height: 50vh;
-                transform: none;
+                height: 36px;
+                width: 36px;
+                object-fit: contain;
+            }
+
+        }
+    }
+
+    .who-stat-number {
+        font-size: clamp(36px, 4.5vw, 60px);
+        font-weight: 300;
+        color: #ffffff;
+        text-align: left;
+        margin-bottom: 8px;
+
+        span {
+            color: #1868d0;
+            font-weight: 400;
+        }
+
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
+    .who-stat-label {
+        font-size: clamp(14px, 1.5vw, 18px);
+        text-align: left;
+        color: #ffffff;
+        opacity: 0.9;
+
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .who-stat-icon {
+            justify-content: center;
+        }
+    }
+}
+
+.solutions-section {
+    background-image: url(../images/ai-agent/we-offer-bg.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0;
+
+    .solutions-heading {
+        font-size: clamp(24px, 3.5vw, 36px);
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .solutions-intro {
+        max-width: 700px;
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .solutions-card {
+        position: relative;
+        height: 100%;
+        padding: 32px 28px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.5019607843);
+
+        h3 {
+            font-weight: $font-weight-bold;
+            color: $white-color;
+            font-size: clamp(18px, 2vw, 22px);
+        }
+
+    }
+}
+
+.industries-section {
+    background: $black-color;
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0;
+
+    .industries-heading {
+        font-size: clamp(24px, 3.5vw, 36px);
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .industries-intro {
+        max-width: 700px;
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .industries-card {
+        position: relative;
+        background: $white-color;
+        height: 100%;
+        padding: 32px 28px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.5019607843);
+
+        h3 {
+            font-weight: $font-weight-bold;
+            color: $territory-color;
+            font-size: clamp(20px, 2vw, 24px);
+        }
+
+        ul {
+            li {
+                margin-bottom: 8px;
+                color: $grey-color;
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 8px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
+    }
+}
+
+.workflow-section {
+    background: $white-color;
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0;
+
+    @media (max-width: 991px) {
+        padding: 70px 0;
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0;
+    }
+
+    .workflow-heading {
+        font-size: clamp(24px, 3.5vw, 36px);
+        color: $black-color;
+        margin-bottom: 15px;
+    }
+
+    .workflow-img-box {
+        position: relative;
+        height: 100%;
+        border-radius: 16px;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 16px;
+        }
+    }
+
+    .workflow-intro {
+        color: $grey-color;
+        font-size: clamp(14px, 1.5vw, 16px);
+        line-height: 1.6;
+    }
+
+    .workflow-card {
+        background: $light-grey-color;
+        height: 100%;
+        padding: 30px;
+        border-radius: 16px;
+
+        @media (max-width: 767px) {
+            padding: 20px;
+        }
+
+        .icon-box {
+            width: 65px;
+            height: 65px;
+            background: $light-blue;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 767px) {
+                width: 55px;
+                height: 55px;
+                margin-bottom: 15px;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+
+                @media (max-width: 767px) {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+
+        h3 {
+            font-weight: $font-weight-bold;
+            color: $territory-color;
+            font-size: clamp(18px, 1.5vw, 24px);
+        }
+
+        p {
+            color: $grey-color;
+            font-size: clamp(14px, 1.5vw, 16px);
+            margin-bottom: 0;
+        }
+    }
+}
+
+.produces-section {
+    background: linear-gradient(360deg, #007bff 0.21%, #086cd7 10.53%, #000000 99.78%);
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0;
+
+    .industries-heading {
+        font-size: clamp(24px, 3.5vw, 36px);
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .industries-intro {
+        max-width: 700px;
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .industries-card {
+        position: relative;
+        height: 100%;
+        padding: 40px 30px;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+        @media (max-width: 768px) {
+            border-right: none;
+            border-left: none;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: 1;
+
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: -1px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.5);
+            z-index: 1;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        h3 {
+            font-weight: $font-weight-bold;
+            color: $white-color;
+            font-size: clamp(20px, 2vw, 24px);
+        }
+
+        ul {
+            li {
+                margin-bottom: 8px;
+                color: $grey-color;
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 8px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.development-section {
+    background: linear-gradient(150deg, #e8f7ff 0%, #ffe7e7 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+
+    .development-heading {
+        font-size: clamp(24px, 3.5vw, 36px);
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .development-intro {
+        max-width: 700px;
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+    }
+
+    .development-card {
+        position: relative;
+        height: 100%;
+        padding: 32px 28px;
+        border-radius: 20px;
+        border: 1px solid $secondary-color;
+        transition: all 0.4s;
+
+        &:hover {
+            background-color: $app-linkedin;
+            color: $white-color;
+            border: none;
+
+            h3 {
+                color: $white-color;
+            }
+        }
+
+        h3 {
+            font-weight: $font-weight-bold;
+            color: $secondary-color;
+            font-size: clamp(18px, 2vw, 22px);
+        }
+
+
     }
 }
