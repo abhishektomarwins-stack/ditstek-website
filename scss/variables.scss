@@ -103,3 +103,49 @@ $slider-width: 40px;
 $slider-height: 20px;
 $border-radius: 15px;
 $slider-radius: 15px;
+// Additional Utility Classes
+@mixin transition-default {
+  transition: all 0.3s ease;
+}
+
+@mixin rounded-12 {
+  border-radius: 12px;
+}
+
+@mixin section-padding {
+  padding: 80px 0;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+// Utility Classes
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-default {
+  background: center / cover no-repeat;
+}
+
+// Additional Utility Classes
+@mixin transition-default {
+  transition: all 0.3s ease;
+}
+
+@mixin rounded-12 {
+  border-radius: 12px;
+}
+
+@mixin section-padding {
+  padding: 80px 0;
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}

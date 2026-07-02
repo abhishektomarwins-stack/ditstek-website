@@ -1,5 +1,5 @@
 /* Compact Header Toggle - SCSS Version */
-.flex-center {
+.flex-center, .hero-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -718,4 +718,90 @@ section {
   color: #fff;
 }
 
-/*# sourceMappingURL=common.css.map */
+.hero-section {
+  background: url(../images/ai-integration/banner.webp), linear-gradient(#010517, #010517);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 90px 0;
+  min-height: calc(100vh - 90px);
+}
+.hero-section .hero-heading {
+  font-size: clamp(28px, 6vw, 50px);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.hero-section .hero-heading span {
+  font-weight: 500;
+  display: block;
+}
+.hero-section .hero-desc {
+  width: 100%;
+  max-width: 900px;
+  color: #fff;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+.hero-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+.hero-section ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(14px, 2.5vw, 14px);
+  font-weight: 500;
+}
+.hero-section ul li img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.stats {
+  padding: 80px 0;
+}
+.stats .stats-wrapper {
+  padding: 40px 24px;
+  border-radius: 12px;
+  border: 2px solid rgba(104, 104, 104, 0.4);
+}
+.stats .who-stat {
+  padding: 15px;
+  border-right: 1px solid rgba(104, 104, 104, 0.4);
+}
+.stats .who-stats > div:last-child .who-stat {
+  border-right: none;
+}
+@media (max-width: 991px) {
+  .stats .who-stats > div:nth-child(2n) .who-stat {
+    border-right: none;
+  }
+}
+.stats .who-stat-number {
+  font-size: clamp(36px, 4.5vw, 60px);
+  font-weight: 700;
+  color: #007bff;
+  text-align: left;
+  margin-bottom: 8px;
+}
+@media (max-width: 991px) {
+  .stats .who-stat-number {
+    text-align: center;
+  }
+}
+.stats .who-stat-label {
+  font-size: clamp(14px, 1.5vw, 18px);
+  text-align: left;
+  color: #1b1b1b;
+}
+@media (max-width: 991px) {
+  .stats .who-stat-label {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=ai-integration-services.css.map */

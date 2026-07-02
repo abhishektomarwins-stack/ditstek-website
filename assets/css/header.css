@@ -1,4 +1,14 @@
 /* Compact Header Toggle - SCSS Version */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-default {
+  background: center/cover no-repeat;
+}
+
 .site-header {
   position: fixed;
   top: 0;

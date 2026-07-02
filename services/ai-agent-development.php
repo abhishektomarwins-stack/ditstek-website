@@ -5,7 +5,7 @@ $url = "../";
 <html lang="en">
 
 <head>
-    <title>AI Software Development Services | DitsTek</title>
+    <title>AI Agent Development | DitsTek</title>
     <?php include_once '../common/common-css.php'; ?>
     <link rel="stylesheet" href="<?php echo $url; ?>assets/css/ai-agent-development.css" type="text/css" />
 </head>

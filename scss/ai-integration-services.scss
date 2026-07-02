@@ -1,0 +1,98 @@
+@use 'variables' as *;
+@use 'common' as *;
+
+.hero-section {
+    background: url(../images/ai-integration/banner.webp), linear-gradient(#010517, #010517);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    @extend .flex-center;
+    padding: 90px 0;
+    min-height: calc(100vh - 90px);
+
+    .hero-heading {
+        font-size: clamp(28px, 6vw, 50px);
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+
+        span {
+            font-weight: 500;
+            display: block;
+        }
+    }
+
+    .hero-desc {
+        width: 100%;
+        max-width: 900px;
+        color: #fff;
+        font-size: clamp(14px, 2.5vw, 18px);
+    }
+
+    ul {
+    @include flex-col();
+        gap: 12px;
+        margin-bottom: 25px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: clamp(14px, 2.5vw, 14px);
+            font-weight: 500;
+
+            img {
+                width: 22px;
+                height: 22px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.stats {
+    @include section-padding();
+
+    .stats-wrapper {
+        padding: 40px 24px;
+        @include rounded-12();
+        border: 2px solid rgba(104, 104, 104, 0.4);
+    }
+
+    .who-stat {
+        padding: 15px;
+        border-right: 1px solid rgba(104, 104, 104, 0.4);
+    }
+
+    .who-stats>div:last-child .who-stat {
+        border-right: none;
+    }
+
+    @media (max-width: 991px) {
+        .who-stats>div:nth-child(2n) .who-stat {
+            border-right: none;
+        }
+    }
+
+    .who-stat-number {
+        font-size: clamp(36px, 4.5vw, 60px);
+        font-weight: 700;
+        color: $light-blue;
+        text-align: left;
+        margin-bottom: 8px;
+
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
+    .who-stat-label {
+        font-size: clamp(14px, 1.5vw, 18px);
+        text-align: left;
+        color: $black-color;
+
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+}
